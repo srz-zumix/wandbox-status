@@ -18,7 +18,7 @@ jobs:
     - name: wandbox-api version
       run: wandbox -v
     - name: make docs
-      run: ./docs/make-shields-endpoint.sh -l C++
+      run: "./docs/make-shields-endpoint.sh -l C++"
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
