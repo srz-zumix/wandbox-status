@@ -17,14 +17,14 @@ jobs:
       run: pip install wandbox-api
     - name: wandbox-api version
       run: wandbox -v
-    # - name: make docs
-    #   run: "./docs/make-shields-endpoint.sh -l C++"
-    # - name: Create Pull Request
-    #   uses: peter-evans/create-pull-request@v3
-    #   with:
-    #     base: master
-    #     branch: feature/cpp
-    #     title: "update c++"
-    #     commit-message: "update c++"
-    #     delete-branch: true
-    #     labels: "status"
+    - name: make docs
+      run: "./docs/make-shields-endpoint.sh -l C++"
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        base: master
+        branch: feature/cpp
+        title: "update c++"
+        commit-message: "update c++"
+        delete-branch: true
+        labels: "status"
