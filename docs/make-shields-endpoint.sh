@@ -40,5 +40,5 @@ while IFS= read -a line ; do {
     echo $LANG, $COMP
     status $LANG $COMP
 };
-done < <(wandbox ${WANDBOX_OPTIONS} versions)
+done < <(wandbox ${WANDBOX_OPTIONS} -V versions)
 unset line;
