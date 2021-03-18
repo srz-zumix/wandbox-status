@@ -2,10 +2,10 @@ name: Docs
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
-  setup-test:
+  make-docs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
