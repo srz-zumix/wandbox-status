@@ -35,7 +35,7 @@ function status {
 
 while IFS= read -a line ; do {
     LANG=${line%:*}
-    COMP=${line#*:}
+    COMP=${line#*: }
     # echo $line
     echo $LANG, $COMP
     status $LANG $COMP
