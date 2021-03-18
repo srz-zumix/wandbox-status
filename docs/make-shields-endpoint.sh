@@ -38,7 +38,7 @@ while IFS= read -a line ; do {
     COMP=${line#*:}
     # echo $line
     echo $LANG, $COMP
-    # status $LANG $COMP
+    status $LANG $COMP
 };
 done < <(wandbox ${WANDBOX_OPTIONS} versions)
 unset line;
