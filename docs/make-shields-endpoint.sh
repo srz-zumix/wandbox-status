@@ -14,7 +14,7 @@ do
 done
 
 function shields {
-mkdir ${SELF_DIR}/shields/$1 || true
+mkdir ${SELF_DIR}/shields/$1 2>/dev/null || true
 cat - << EOS > ${SELF_DIR}/shields/$1/$2.json
 {
   "schemaVersion": 1,
