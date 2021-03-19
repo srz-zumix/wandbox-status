@@ -1,0 +1,42 @@
+name: Docs
+on:
+  schedule:
+    - cron: '0 14 * * *'
+
+jobs:
+  make-docs:
+    runs-on: ubuntu-18.04
+    env:
+      LANGUAGE: Lazy K
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: install wandbox-api
+      run: pip install wandbox-api
+    - name: wandbox-api version
+      run: wandbox -v
+    - name: make docs
+      run: "./docs/make-shields-endpoint.sh -l ${LANGUAGE}"
+    - name: git config
+      run: |
+        git config --local user.name ${{ github.actor }}
+        git config --local user.email ${{ github.actor }}@users.noreply.github.com
+    - name: commit
+      run: |
+        git add .
+        git commit -m "update ${LANGUAGE}" || true
+    - name: push
+      run: |
+        git push origin main
+    # - name: Create Pull Request
+    #   uses: peter-evans/create-pull-request@v3
+    #   with:
+    #     base: main
+    #     branch: feature/cpp
+    #     title: "update c++"
+    #     commit-message: "update c++"
+    #     delete-branch: true
+    #     labels: "status"
