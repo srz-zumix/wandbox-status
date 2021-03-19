@@ -1,7 +1,7 @@
 name: Perl
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 14 * * *'
 
 jobs:
   make-docs:
@@ -18,6 +18,9 @@ jobs:
       run: pip install wandbox-api
     - name: wandbox-api version
       run: wandbox -v
+    - name: clean
+      run: |
+        rm -rf ./docs/shields/${LANGUAGE}
     - name: make docs
       run: "./docs/make-shields-endpoint.sh -l ${LANGUAGE}"
     - name: git config

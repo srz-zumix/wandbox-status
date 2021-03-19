@@ -55,7 +55,8 @@ while IFS= read -a line ; do {
     LANG=${line%:*}
     COMP=${line#*: }
     PATH=$(urlencode ${LANG})
-    echo "|$COMP|![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2F%2Fshields%2F$PATH%2F$COMP.json)|"
+    COMP_PATH=$(urlencode ${COMP})
+    echo "|$COMP|![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2F%2Fshields%2F$PATH%2F$COMP_PATH.json)|"
 };
 done < <(wandbox ${WANDBOX_OPTIONS} -V versions)
 unset line;
