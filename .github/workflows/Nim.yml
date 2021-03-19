@@ -1,7 +1,7 @@
-name: Docs
+name: Nim
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 22 * * *'
 
 jobs:
   make-docs:

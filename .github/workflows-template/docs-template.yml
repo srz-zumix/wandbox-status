@@ -1,4 +1,4 @@
-name: Docs
+name: TEMPLATE_LANGUAGE
 on:
   schedule:
     - cron: '0 TEMPLATE_HOUR * * *'

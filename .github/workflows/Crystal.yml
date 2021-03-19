@@ -1,7 +1,7 @@
-name: Docs
+name: Crystal
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '0 17 * * *'
 
 jobs:
   make-docs:

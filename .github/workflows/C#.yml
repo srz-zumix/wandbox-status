@@ -1,7 +1,7 @@
-name: Docs
+name: C#
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '0 4 * * *'
 
 jobs:
   make-docs:

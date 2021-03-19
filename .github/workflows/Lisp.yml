@@ -1,7 +1,7 @@
-name: Docs
+name: Lisp
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 12 * * *'
 
 jobs:
   make-docs:
