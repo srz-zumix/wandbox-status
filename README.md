@@ -38,11 +38,15 @@
 
 |lang|version|status|
 |:------|:------|:-----|
+|C|gcc-head-c|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-head-c.json)|
+|C|clang-head-c|![clang-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-head-c.json)|
 |C#|mono-head|![mono-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-head.json)|
 |C#|dotnetcore-head|![dotnetcore-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fdotnetcore-head.json)|
 |C++|gcc-head|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2b%2b%2Fgcc-head.json)|
 |C++|clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2b%2b%2Fclang-head.json)|
 |CMake|cmake-head|![cmake-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCMake%2Fcmake-head.json)|
+|CPP|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
+|CPP|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
 |CoffeeScript|coffeescript-head|![coffeescript-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCoffeeScript%2Fcoffeescript-head.json)|
 |Crystal|crystal-head|![crystal-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCrystal%2Fcrystal-head.json)|
 |D|dmd-head|![dmd-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fdmd-head.json)|
