@@ -33,11 +33,11 @@ function status_test {
     fi
 }
 function status {
-    if [ $1 = "OpenSSL" ]; then
-        status_test $1 $2 "PRIVATE KEY"
-    else
-        status_test $1 $2 "Hello"
-    fi
+    case $1 in
+        "OpenSSL") status_test $1 $2 "PRIVATE KEY" ;;
+        "CPP")     status_test $1 $2 "42" ;;
+        *)         status_test $1 $2 "Hello"
+    esac
 }
 
 while IFS= read -a line ; do {
