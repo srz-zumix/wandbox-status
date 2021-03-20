@@ -27,12 +27,14 @@
 * [Perl](#Perl)
 * [PHP](#PHP)
 * [Pony](#Pony)
+* [R](#R)
 * [Rill](#Rill)
 * [Ruby](#Ruby)
 * [Rust](#Rust)
 * [Scala](#Scala)
 * [SQL](#SQL)
 * [Swift](#Swift)
+* [TypeScript](#TypeScript)
 
 ## Head
 
@@ -523,6 +525,13 @@
 |pony-0.14.0|![pony-0.14.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPony%2Fpony-0.14.0.json)|
 |pony-0.11.3|![pony-0.11.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPony%2Fpony-0.11.3.json)|
 
+## R
+
+|version|status|
+|:------|:-----|
+|r-head|![r-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FR%2Fr-head.json)|
+|r-3.5.1|![r-3.5.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FR%2Fr-3.5.1.json)|
+
 ## Rill
 
 |version|status|
@@ -606,5 +615,83 @@
 |swift-3.0|![swift-3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-3.0.json)|
 |swift-2.2.1|![swift-2.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-2.2.1.json)|
 |swift-2.2|![swift-2.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-2.2.json)|
+
+## TypeScript
+
+|version|status|
+|:------|:-----|
+|typescript-3.9.5|![typescript-3.9.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.9.5.json)|
+|typescript-3.8.3|![typescript-3.8.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.8.3.json)|
+|typescript-3.7.5|![typescript-3.7.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.7.5.json)|
+|typescript-3.6.5|![typescript-3.6.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.6.5.json)|
+|typescript-3.5.3|![typescript-3.5.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.5.3.json)|
+|typescript-3.5.1|![typescript-3.5.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.5.1.json)|
+|typescript-3.4.5|![typescript-3.4.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.4.5.json)|
+|typescript-3.4.4|![typescript-3.4.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.4.4.json)|
+|typescript-3.4.3|![typescript-3.4.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.4.3.json)|
+|typescript-3.4.2|![typescript-3.4.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.4.2.json)|
+|typescript-3.4.1|![typescript-3.4.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.4.1.json)|
+|typescript-3.3.3|![typescript-3.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.3.3.json)|
+|typescript-3.3.1|![typescript-3.3.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.3.1.json)|
+|typescript-3.2.4|![typescript-3.2.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.2.4.json)|
+|typescript-3.2.2|![typescript-3.2.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.2.2.json)|
+|typescript-3.2.1|![typescript-3.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.2.1.json)|
+|typescript-3.1.6|![typescript-3.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.1.6.json)|
+|typescript-3.1.5|![typescript-3.1.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.1.5.json)|
+|typescript-3.1.4|![typescript-3.1.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.1.4.json)|
+|typescript-3.1.3|![typescript-3.1.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.1.3.json)|
+|typescript-3.1.2|![typescript-3.1.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.1.2.json)|
+|typescript-3.1.1|![typescript-3.1.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.1.1.json)|
+|typescript-3.0.3|![typescript-3.0.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.0.3.json)|
+|typescript-3.0.1|![typescript-3.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.0.1.json)|
+|typescript-2.9.2|![typescript-2.9.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.9.2.json)|
+|typescript-2.9.1|![typescript-2.9.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.9.1.json)|
+|typescript-2.8.4|![typescript-2.8.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.8.4.json)|
+|typescript-2.8.3|![typescript-2.8.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.8.3.json)|
+|typescript-2.8.1|![typescript-2.8.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.8.1.json)|
+|typescript-2.7.2|![typescript-2.7.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.7.2.json)|
+|typescript-2.7.1|![typescript-2.7.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.7.1.json)|
+|typescript-2.6.2|![typescript-2.6.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.6.2.json)|
+|typescript-2.6.1|![typescript-2.6.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.6.1.json)|
+|typescript-2.5.3|![typescript-2.5.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.5.3.json)|
+|typescript-2.5.2|![typescript-2.5.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.5.2.json)|
+|typescript-2.5.1|![typescript-2.5.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.5.1.json)|
+|typescript-2.5.0|![typescript-2.5.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.5.0.json)|
+|typescript-2.4.2|![typescript-2.4.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.4.2.json)|
+|typescript-2.4.1|![typescript-2.4.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.4.1.json)|
+|typescript-2.4.0|![typescript-2.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.4.0.json)|
+|typescript-2.3.4|![typescript-2.3.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.3.4.json)|
+|typescript-2.3.3|![typescript-2.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.3.3.json)|
+|typescript-2.3.2|![typescript-2.3.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.3.2.json)|
+|typescript-2.3.1|![typescript-2.3.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.3.1.json)|
+|typescript-2.3.0|![typescript-2.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.3.0.json)|
+|typescript-2.2.2|![typescript-2.2.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.2.2.json)|
+|typescript-2.2.1|![typescript-2.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.2.1.json)|
+|typescript-2.2.0|![typescript-2.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.2.0.json)|
+|typescript-2.1.6|![typescript-2.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.1.6.json)|
+|typescript-2.1.5|![typescript-2.1.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.1.5.json)|
+|typescript-2.1.4|![typescript-2.1.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.1.4.json)|
+|typescript-2.1.1|![typescript-2.1.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.1.1.json)|
+|typescript-2.0.9|![typescript-2.0.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.9.json)|
+|typescript-2.0.8|![typescript-2.0.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.8.json)|
+|typescript-2.0.7|![typescript-2.0.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.7.json)|
+|typescript-2.0.6|![typescript-2.0.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.6.json)|
+|typescript-2.0.3|![typescript-2.0.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.3.json)|
+|typescript-2.0.2|![typescript-2.0.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.2.json)|
+|typescript-2.0.0|![typescript-2.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-2.0.0.json)|
+|typescript-1.8.9|![typescript-1.8.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.8.9.json)|
+|typescript-1.8.7|![typescript-1.8.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.8.7.json)|
+|typescript-1.8.6|![typescript-1.8.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.8.6.json)|
+|typescript-1.8.5|![typescript-1.8.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.8.5.json)|
+|typescript-1.8.2|![typescript-1.8.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.8.2.json)|
+|typescript-1.8.0|![typescript-1.8.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.8.0.json)|
+|typescript-1.7.5|![typescript-1.7.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.7.5.json)|
+|typescript-1.7.3|![typescript-1.7.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.7.3.json)|
+|typescript-1.6.2|![typescript-1.6.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.6.2.json)|
+|typescript-1.5.3|![typescript-1.5.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.5.3.json)|
+|typescript-1.4.1|![typescript-1.4.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.4.1.json)|
+|typescript-1.3.0|![typescript-1.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.3.0.json)|
+|typescript-1.0.1|![typescript-1.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.0.1.json)|
+|typescript-1.0.0|![typescript-1.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.0.0.json)|
 
 [Wandbox]:https://wandbox.org/
