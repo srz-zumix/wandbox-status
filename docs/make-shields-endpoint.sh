@@ -25,12 +25,21 @@ cat - << EOS > ${SELF_DIR}/shields/$1/$2.json
 EOS
 }
 
+function run_wandbox {
+    if [ -f "${SELF_DIR}/../templates/$1/template.txt" ]; then
+        wandbox -l $1 -c $2 run "${SELF_DIR}/../templates/$1/template.txt"
+    else
+        wandbox -l $1 -c $2 run-template
+    fi
+}
 function status_test {
-    if wandbox -l $1 -c $2 run-template | grep "$3"; then
+    if run_wandbox $1 $2 | tee log.txt | grep "$3"; then
         shields $1 $2 succeeded green
     else
         shields $1 $2 failed red
+        cat log.txt
     fi
+    rm -f log.txt
 }
 function status {
     case $1 in
