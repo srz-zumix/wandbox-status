@@ -36,6 +36,7 @@ function status {
     case $1 in
         "OpenSSL") status_test $1 $2 "PRIVATE KEY" ;;
         "CPP")     status_test $1 $2 "42" ;;
+        "R")       status_test $1 $2 "All done" ;;
         *)         status_test $1 $2 "Hello"
     esac
 }
