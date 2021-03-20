@@ -38,7 +38,7 @@
 |lang|version|status|
 |:------|:------|:-----|
 |C#|mono-head|![mono-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-head.json)|
-|C#|dotnetcore-head|![dotnetcore-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fdotnetcore-head.json)|
+|C#|dotnetcore-head|![dotnetcore-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fdotnetcore-head.json)|
 |C++|gcc-head|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2b%2b%2Fgcc-head.json)|
 |C++|clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2b%2b%2Fclang-head.json)|
 |CMake|cmake-head|![cmake-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCMake%2Fcmake-head.json)|
@@ -49,7 +49,7 @@
 |D|ldc-head|![ldc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fldc-head.json)|
 |Elixir|elixir-head|![elixir-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FElixir%2Felixir-head.json)|
 |Erlang|erlang-head|![erlang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FErlang%2Ferlang-head.json)|
-|F#|fsharp-head|![fsharp-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%23%2Ffsharp-head.json)|
+|F#|fsharp-head|![fsharp-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-head.json)|
 |Go|go-head|![go-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FGo%2Fgo-head.json)|
 |Haskell|ghc-head|![ghc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-head.json)|
 |Java|openjdk-head|![openjdk-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJava%2Fopenjdk-head.json)|
@@ -139,17 +139,17 @@
 
 |version|status|
 |:------|:-----|
-|mono-head|![mono-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-head.json)|
-|mono-5.8.0.108|![mono-5.8.0.108](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-5.8.0.108.json)|
-|mono-5.4.0.199|![mono-5.4.0.199](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-5.4.0.199.json)|
-|mono-5.0.1.1|![mono-5.0.1.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-5.0.1.1.json)|
-|mono-4.8.0.382|![mono-4.8.0.382](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-4.8.0.382.json)|
-|mono-3.12.1|![mono-3.12.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-3.12.1.json)|
-|mono-3.12.0|![mono-3.12.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-3.12.0.json)|
-|mono-3.4.0|![mono-3.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-3.4.0.json)|
-|mono-3.2.0|![mono-3.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fmono-3.2.0.json)|
-|dotnetcore-head|![dotnetcore-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fdotnetcore-head.json)|
-|dotnetcore-2.1.401|![dotnetcore-2.1.401](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%23%2Fdotnetcore-2.1.401.json)|
+|mono-head|![mono-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-head.json)|
+|mono-5.8.0.108|![mono-5.8.0.108](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-5.8.0.108.json)|
+|mono-5.4.0.199|![mono-5.4.0.199](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-5.4.0.199.json)|
+|mono-5.0.1.1|![mono-5.0.1.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-5.0.1.1.json)|
+|mono-4.8.0.382|![mono-4.8.0.382](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-4.8.0.382.json)|
+|mono-3.12.1|![mono-3.12.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-3.12.1.json)|
+|mono-3.12.0|![mono-3.12.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-3.12.0.json)|
+|mono-3.4.0|![mono-3.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-3.4.0.json)|
+|mono-3.2.0|![mono-3.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fmono-3.2.0.json)|
+|dotnetcore-head|![dotnetcore-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fdotnetcore-head.json)|
+|dotnetcore-2.1.401|![dotnetcore-2.1.401](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fdotnetcore-2.1.401.json)|
 
 ## C++
 
@@ -278,11 +278,11 @@
 
 |version|status|
 |:------|:-----|
-|fsharp-head|![fsharp-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%23%2Ffsharp-head.json)|
-|fsharp-4.1.34|![fsharp-4.1.34](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%23%2Ffsharp-4.1.34.json)|
-|fsharp-4.1.25|![fsharp-4.1.25](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%23%2Ffsharp-4.1.25.json)|
-|fsharp-4.0.0.4|![fsharp-4.0.0.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%23%2Ffsharp-4.0.0.4.json)|
-|fsharp-3.1.1.26|![fsharp-3.1.1.26](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%23%2Ffsharp-3.1.1.26.json)|
+|fsharp-head|![fsharp-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-head.json)|
+|fsharp-4.1.34|![fsharp-4.1.34](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-4.1.34.json)|
+|fsharp-4.1.25|![fsharp-4.1.25](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-4.1.25.json)|
+|fsharp-4.0.0.4|![fsharp-4.0.0.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-4.0.0.4.json)|
+|fsharp-3.1.1.26|![fsharp-3.1.1.26](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-3.1.1.26.json)|
 
 ## Go
 

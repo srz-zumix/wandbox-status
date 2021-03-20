@@ -35,6 +35,7 @@ function urlencode() {
      local c=${input:$i:1}
      case "$c" in 
         [-_.~a-zA-Z0-9] ) o="${c}" ;;   ##変換せず
+        "#" ) o='%2523' ;;
         * ) printf -v o '%%%02x' "'$c"  ##URL形式に変換
      esac
      output+=$o
@@ -55,7 +56,7 @@ while IFS= read -a line ; do {
     COMP=${line#*: }
     PATH=$(urlencode ${LANG})
     COMP_PATH=$(urlencode ${COMP})
-    echo "|$LANG|$COMP|![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F$PATH%2F$COMP_PATH.json)|"
+    echo "|$LANG|$COMP|![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F$PATH%2F$COMP_PATH.json)|"
 };
 done < <(wandbox ${WANDBOX_OPTIONS} -c *head -V versions)
 unset line;
