@@ -25,11 +25,18 @@ cat - << EOS > ${SELF_DIR}/shields/$1/$2.json
 EOS
 }
 
-function status {
-    if wandbox -l $1 -c $2 run-template | grep Hello; then
+function status_test {
+    if wandbox -l $1 -c $2 run-template | grep "$3"; then
         shields $1 $2 succeeded green
     else
         shields $1 $2 failed red
+    fi
+}
+function status {
+    if [ $1 = "OpenSSL" ]; then
+        status_test $1 $2 "PRIVATE KEY"
+    else
+        status_test $1 $2 "Hello"
     fi
 }
 
