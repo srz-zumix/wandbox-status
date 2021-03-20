@@ -28,6 +28,7 @@
 * [PHP](#PHP)
 * [Pony](#Pony)
 * [Rill](#Rill)
+* [Ruby](#Ruby)
 * [Rust](#Rust)
 * [Scala](#Scala)
 * [SQL](#SQL)
@@ -523,6 +524,41 @@
 |version|status|
 |:------|:-----|
 |rill-head|![rill-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRill%2Frill-head.json)|
+
+## Ruby
+
+|version|status|
+|:------|:-----|
+|ruby-head|![ruby-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-head.json)|
+|ruby-3.0.0|![ruby-3.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.0.0.json)|
+|ruby-2.7.2|![ruby-2.7.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.7.2.json)|
+|ruby-2.7.1|![ruby-2.7.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.7.1.json)|
+|ruby-2.6.5|![ruby-2.6.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.6.5.json)|
+|ruby-2.6.1|![ruby-2.6.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.6.1.json)|
+|ruby-2.6.0|![ruby-2.6.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.6.0.json)|
+|ruby-2.5.7|![ruby-2.5.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.5.7.json)|
+|ruby-2.5.1|![ruby-2.5.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.5.1.json)|
+|ruby-2.5.0|![ruby-2.5.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.5.0.json)|
+|ruby-2.4.9|![ruby-2.4.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.4.9.json)|
+|ruby-2.4.4|![ruby-2.4.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.4.4.json)|
+|ruby-2.4.3|![ruby-2.4.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.4.3.json)|
+|ruby-2.4.2|![ruby-2.4.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.4.2.json)|
+|ruby-2.4.1|![ruby-2.4.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.4.1.json)|
+|ruby-2.4.0|![ruby-2.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.4.0.json)|
+|ruby-2.3.3|![ruby-2.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.3.3.json)|
+|ruby-2.2.6|![ruby-2.2.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.2.6.json)|
+|ruby-2.1.10|![ruby-2.1.10](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.1.10.json)|
+|ruby-2.0.0-p648|![ruby-2.0.0-p648](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.0.0-p648.json)|
+|ruby-1.9.3-p551|![ruby-1.9.3-p551](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-1.9.3-p551.json)|
+|ruby-1.8.7-p358|![ruby-1.8.7-p358](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-1.8.7-p358.json)|
+|mruby-head|![mruby-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-head.json)|
+|mruby-2.0.1|![mruby-2.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-2.0.1.json)|
+|mruby-2.0.0|![mruby-2.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-2.0.0.json)|
+|mruby-1.4.0|![mruby-1.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.4.0.json)|
+|mruby-1.3.0|![mruby-1.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.3.0.json)|
+|mruby-1.2.0|![mruby-1.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.2.0.json)|
+|mruby-1.1.0|![mruby-1.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.1.0.json)|
+|mruby-1.0.0|![mruby-1.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.0.0.json)|
 
 ## Rust
 
