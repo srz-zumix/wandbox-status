@@ -84,7 +84,7 @@
 |Rust|rust-head|![rust-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-head.json)|
 |SQL|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
 |Swift|swift-head|![swift-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-head.json)|
-|Vim script|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2Fvim-head.json)|
+|Vim script|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-head.json)|
 
 ## C
 
