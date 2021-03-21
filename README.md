@@ -37,7 +37,7 @@
 * [SQL](#SQL)
 * [Swift](#Swift)
 * [TypeScript](#TypeScript)
-* [Vim script](#Vimscript)
+* [Vim script](#Vim-script)
 
 ## Head
 
@@ -743,11 +743,11 @@
 
 |version|status|
 |:------|:-----|
-|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%20script%2Fvim-head.json)|
-|vim-8.0.0671|![vim-8.0.0671](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%20script%2Fvim-8.0.0671.json)|
-|vim-8.0.0354|![vim-8.0.0354](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%20script%2Fvim-8.0.0354.json)|
-|vim-7.4.2367|![vim-7.4.2367](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%20script%2Fvim-7.4.2367.json)|
-|vim-7.4.1714|![vim-7.4.1714](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%20script%2Fvim-7.4.1714.json)|
-|vim-7.4.729|![vim-7.4.729](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%20script%2Fvim-7.4.729.json)|
+|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-head.json)|
+|vim-8.0.0671|![vim-8.0.0671](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.0.0671.json)|
+|vim-8.0.0354|![vim-8.0.0354](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.0.0354.json)|
+|vim-7.4.2367|![vim-7.4.2367](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-7.4.2367.json)|
+|vim-7.4.1714|![vim-7.4.1714](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-7.4.1714.json)|
+|vim-7.4.729|![vim-7.4.729](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-7.4.729.json)|
 
 [Wandbox]:https://wandbox.org/

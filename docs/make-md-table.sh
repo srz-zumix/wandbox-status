@@ -37,6 +37,7 @@ function urlencode() {
      local c=${input:$i:1}
      case "$c" in 
         [-_.~a-zA-Z0-9] ) o="${c}" ;;   ##変換せず
+        " " ) o='%2520' ;;
         "#" ) o='%2523' ;;
         * ) printf -v o '%%%02x' "'$c"  ##URL形式に変換
      esac
