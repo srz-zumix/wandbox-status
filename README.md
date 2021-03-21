@@ -2,6 +2,7 @@
 
 [Wandbox][] status
 
+* [Bash script](#Bash-script)
 * [C](#C)
 * [C#](#CCSharp)
 * [C++](#C-1)
@@ -85,6 +86,12 @@
 |SQL|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
 |Swift|swift-head|![swift-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-head.json)|
 |Vim script|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-head.json)|
+
+## Bash script
+
+|version|status|
+|:------|:-----|
+|bash|![bash](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FBash%2520script%2Fbash.json)|
 
 ## C
 
