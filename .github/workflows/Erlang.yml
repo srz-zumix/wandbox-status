@@ -1,13 +1,13 @@
 name: Erlang
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 13 * * *'
 
 jobs:
   make-docs:
     runs-on: ubuntu-18.04
     env:
-      LANGUAGE: Erlang
+      LANGUAGE: "Erlang"
     steps:
     - uses: actions/checkout@master
     - name: Set up Python 3.9
@@ -22,7 +22,7 @@ jobs:
       run: |
         rm -rf ./docs/shields/${LANGUAGE}
     - name: make docs
-      run: "./docs/make-shields-endpoint.sh -l ${LANGUAGE}"
+      run: ./docs/make-shields-endpoint.sh -l "${LANGUAGE}"
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}

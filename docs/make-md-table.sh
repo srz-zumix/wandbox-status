@@ -2,11 +2,12 @@
 
 SELF_DIR=$(cd $(dirname $0); pwd)
 WANDBOX_OPTIONS=
+LANGUAGE=
 
 while getopts l:c:h OPT
 do
     case $OPT in
-        l) WANDBOX_OPTIONS+="-l $OPTARG";;
+        l) LANGUAGE="$OPTARG";;
         c) WANDBOX_OPTIONS+="-c $OPTARG";;
         h) usage_exit ;;
         *) usage_exit ;;
@@ -49,15 +50,23 @@ function urlencode() {
 #     python -c 'import sys, urllib; print urllib.quote(sys.stdin.read()),'
 # }
 
+function versions {
+    if [ -z "${LANGUAGE}" ]; then
+        wandbox ${WANDBOX_OPTIONS} -V versions
+    else
+        wandbox -l "${LANGUAGE}" ${WANDBOX_OPTIONS} -V versions
+    fi
+}
+
 echo "|version|status|"
 echo "|:------|:-----|"
 
 while IFS= read -a line ; do {
     LANG=${line%:*}
     COMP=${line#*: }
-    PATH=$(urlencode ${LANG})
-    COMP_PATH=$(urlencode ${COMP})
+    PATH=$(urlencode "${LANG}")
+    COMP_PATH=$(urlencode "${COMP}")
     echo "|$COMP|![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F$PATH%2F$COMP_PATH.json)|"
 };
-done < <(wandbox ${WANDBOX_OPTIONS} -V versions)
+done < <(versions)
 unset line;

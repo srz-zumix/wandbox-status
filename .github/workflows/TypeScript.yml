@@ -1,13 +1,13 @@
 name: TypeScript
 on:
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   make-docs:
     runs-on: ubuntu-18.04
     env:
-      LANGUAGE: TypeScript
+      LANGUAGE: "TypeScript"
     steps:
     - uses: actions/checkout@master
     - name: Set up Python 3.9
@@ -22,7 +22,7 @@ jobs:
       run: |
         rm -rf ./docs/shields/${LANGUAGE}
     - name: make docs
-      run: "./docs/make-shields-endpoint.sh -l ${LANGUAGE}"
+      run: ./docs/make-shields-endpoint.sh -l "${LANGUAGE}"
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}

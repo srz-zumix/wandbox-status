@@ -2,11 +2,12 @@
 
 SELF_DIR=$(cd $(dirname $0); pwd)
 WANDBOX_OPTIONS=
+LANGUAGE=
 
 while getopts l:c:h OPT
 do
     case $OPT in
-        l) WANDBOX_OPTIONS+="-l $OPTARG";;
+        l) LANGUAGE="$OPTARG";;
         c) WANDBOX_OPTIONS+="-c $OPTARG";;
         h) usage_exit ;;
         *) usage_exit ;;
@@ -14,8 +15,8 @@ do
 done
 
 function shields {
-mkdir ${SELF_DIR}/shields/$1 2>/dev/null || true
-cat - << EOS > ${SELF_DIR}/shields/$1/$2.json
+mkdir "${SELF_DIR}/shields/$1" 2>/dev/null || true
+cat - << EOS > "${SELF_DIR}/shields/$1/$2.json"
 {
   "schemaVersion": 1,
   "label": "$1: $2",
@@ -27,27 +28,34 @@ EOS
 
 function run_wandbox {
     if [ -f "${SELF_DIR}/../templates/$1/template.txt" ]; then
-        wandbox -l $1 -c $2 run "${SELF_DIR}/../templates/$1/template.txt"
+        wandbox -l "$1" -c "$2" run "${SELF_DIR}/../templates/$1/template.txt"
     else
-        wandbox -l $1 -c $2 run-template
+        wandbox -l "$1" -c "$2" run-template
     fi
 }
 function status_test {
-    if run_wandbox $1 $2 | tee log.txt | grep "$3"; then
-        shields $1 $2 succeeded green
+    if run_wandbox "$1" "$2" | tee log.txt | grep "$3"; then
+        shields "$1" "$2" succeeded green
     else
-        shields $1 $2 failed red
+        shields "$1" "$2" failed red
         cat log.txt
     fi
     rm -f log.txt
 }
 function status {
-    case $1 in
-        "OpenSSL") status_test $1 $2 "PRIVATE KEY" ;;
-        "CPP")     status_test $1 $2 "42" ;;
-        "R")       status_test $1 $2 "All done" ;;
-        *)         status_test $1 $2 "Hello"
+    case "$1" in
+        "OpenSSL") status_test "$1" "$2" "PRIVATE KEY" ;;
+        "CPP")     status_test "$1" "$2" "42" ;;
+        "R")       status_test "$1" "$2" "All done" ;;
+        *)         status_test "$1" "$2" "Hello"
     esac
+}
+function versions {
+    if [ -z "${LANGUAGE}" ]; then
+        wandbox ${WANDBOX_OPTIONS} -V versions
+    else
+        wandbox -l "${LANGUAGE}" ${WANDBOX_OPTIONS} -V versions
+    fi
 }
 
 while IFS= read -a line ; do {
@@ -55,7 +63,7 @@ while IFS= read -a line ; do {
     COMP=${line#*: }
     # echo $line
     echo $LANG, $COMP
-    status $LANG $COMP
+    status "$LANG" "$COMP"
 };
-done < <(wandbox ${WANDBOX_OPTIONS} -V versions)
+done < <(versions)
 unset line;
