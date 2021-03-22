@@ -20,6 +20,7 @@
 * [Java](#Java)
 * [JavaScript](#JavaScript)
 * [Julia](#Julia)
+* [Lazy K](#Lazy-K)
 * [Lisp](#Lisp)
 * [Lua](#Lua)
 * [Nim](#Nim)
@@ -427,6 +428,12 @@
 |julia-head|![julia-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJulia%2Fjulia-head.json)|
 |julia-1.5.3|![julia-1.5.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJulia%2Fjulia-1.5.3.json)|
 |julia-1.0.5|![julia-1.0.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJulia%2Fjulia-1.0.5.json)|
+
+## Lazy K
+
+|version|status|
+|:------|:-----|
+|lazyk|![lazyk](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLazy%2520K%2Flazyk.json)|
 
 ## Lisp
 
