@@ -1,0 +1,34 @@
+name: head-version
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  make-docs:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: install wandbox-api
+      run: pip install wandbox-api
+    - name: wandbox-api version
+      run: wandbox -v
+    - name: clean
+      run: |
+        rm -rf ./docs/shields/head-version
+    - name: make docs
+      run: ./docs/make-head-version-shields-endpoint.sh
+    - name: git config
+      run: |
+        git config --local user.name ${{ github.actor }}
+        git config --local user.email ${{ github.actor }}@users.noreply.github.com
+    - name: commit
+      run: |
+        git add .
+        git commit -m "update Head-version" || true
+    - name: push
+      run: |
+        git push origin main
