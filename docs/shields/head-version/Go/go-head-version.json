@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Go: go-head",
-  "message": "devel",
-  "color": "+a93849b"
+  "message": "devel +a93849b",
+  "color": "green"
 }

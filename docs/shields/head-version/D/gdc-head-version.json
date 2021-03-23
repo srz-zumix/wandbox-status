@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "D: gdc-head",
-  "message": "11.0.1",
-  "color": "20210321"
+  "message": "11.0.1 20210321 (experimental)",
+  "color": "green"
 }
