@@ -13,18 +13,6 @@ do
     esac
 done
 
-function shields {
-mkdir ${SELF_DIR}/shields/$1 2>/dev/null || true
-cat - << EOS > ${SELF_DIR}/shields/$1/$2.json
-{
-  "schemaVersion": 1,
-  "label": "$1: $2",
-  "message": "$3",
-  "color": "$4"
-}
-EOS
-}
-
 function urlencode() {
   local input="${1}"
   local output=""
@@ -58,15 +46,17 @@ function versions {
     fi
 }
 
-echo "|lang|version|status|"
-echo "|:------|:------|:-----|"
+echo "|language|name|version|status|"
+echo "|:------|:------|:-----|:-----|"
 
 while IFS= read -a line ; do {
     LANG=${line%:*}
     COMP=${line#*: }
     PATH=$(urlencode "${LANG}")
     COMP_PATH=$(urlencode "${COMP}")
-    echo "|$LANG|$COMP|![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F$PATH%2F$COMP_PATH.json)|"
+    VERSION_HD="![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version/$PATH%2F$COMP_PATH-version.json)"
+    COMP_HD="![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F$PATH%2F$COMP_PATH.json)"
+    echo "|$LANG|$COMP|${VERSION_HD}|${COMP_HD}|"
 };
 done < <(versions)
 unset line;
