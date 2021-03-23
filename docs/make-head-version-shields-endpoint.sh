@@ -32,7 +32,7 @@ function run_wandbox {
 function status {
     if run_wandbox "$1" "$2" | tee log.txt; then
         VERSION=$(sed "s%http(s|)://\S*%%g" log.txt)
-        shields "$1" "$2" "${VERSION}" green
+        shields "$1" "$2" "${VERSION}" blue
     else
         shields "$1" "$2" failed red
         cat log.txt
