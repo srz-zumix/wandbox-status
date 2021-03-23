@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "C++: clang-head",
-  "message": "13.0.0 (https://github.com/llvm/llvm-project.git fcdf7f6224610a51dc2ff47f2f1e3377329b64a7)",
+  "message": "13.0.0 (fcdf7f6224610a51dc2ff47f2f1e3377329b64a7)",
   "color": "blue"
 }
