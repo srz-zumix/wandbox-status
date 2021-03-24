@@ -1,6 +1,9 @@
 # wandbox-status
 
-[Wandbox][] status
+[Wandbox][] status  
+[Wandbox][] new compiler notification: [wandbox-news](https://github.com/srz-zumix/wandbox-news)
+
+## Language List
 
 * [Bash script](#Bash-script)
 * [C](#C)
@@ -765,3 +768,4 @@
 |vim-7.4.729|![vim-7.4.729](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-7.4.729.json)|
 
 [Wandbox]:https://wandbox.org/
+[wandbox-news]:https://github.com/srz-zumix/wandbox-news
