@@ -1,0 +1,31 @@
+name: head-version
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  make-docs:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: install amaterasu
+      run: pip install -r requirements.txt
+    - name: amaterasu version
+      run: amaterasu -v
+    - name: make readme
+      run: amaterasu README.md.j2 > README.md
+    - name: git config
+      run: |
+        git config --local user.name ${{ github.actor }}
+        git config --local user.email ${{ github.actor }}@users.noreply.github.com
+    - name: commit
+      run: |
+        git add .
+        git commit -m "update README" || true
+    - name: push
+      run: |
+        git push origin main

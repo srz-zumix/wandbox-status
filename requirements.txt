@@ -1,2 +1,2 @@
 kamidana
-amaterasu
+amaterasu-j2
