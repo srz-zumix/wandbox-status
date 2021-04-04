@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Rill: rill-head",
-  "message": "%%VERSION%%",
+  "message": "",
   "color": "blue"
 }
