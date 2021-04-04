@@ -54,7 +54,7 @@ while IFS= read -a line ; do {
     COMP=${line#*: }
     PATH=$(urlencode "${LANG}")
     COMP_PATH=$(urlencode "${COMP}")
-    VERSION_HD="![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version/$PATH%2F$COMP_PATH-version.json)"
+    VERSION_HD="![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2F$PATH%2F$COMP_PATH-version.json)"
     COMP_HD="![$COMP](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F$PATH%2F$COMP_PATH.json)"
     echo "|$LANG|$COMP|${VERSION_HD}|${COMP_HD}|"
 };
