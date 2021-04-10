@@ -10,8 +10,8 @@
 * [C#](#C-1)
 * [C++](#C-2)
 * [CMake](#CMake)
-* [CPP](#CPP)
 * [CoffeeScript](#CoffeeScript)
+* [CPP](#CPP)
 * [Crystal](#Crystal)
 * [D](#D)
 * [Elixir](#Elixir)
@@ -29,17 +29,17 @@
 * [Nim](#Nim)
 * [OCaml](#OCaml)
 * [OpenSSL](#OpenSSL)
-* [PHP](#PHP)
 * [Pascal](#Pascal)
 * [Perl](#Perl)
+* [PHP](#PHP)
 * [Pony](#Pony)
 * [Python](#Python)
 * [R](#R)
 * [Rill](#Rill)
 * [Ruby](#Ruby)
 * [Rust](#Rust)
-* [SQL](#SQL)
 * [Scala](#Scala)
+* [SQL](#SQL)
 * [Swift](#Swift)
 * [TypeScript](#TypeScript)
 * [Vim script](#Vim-script)
@@ -238,13 +238,6 @@
 |:------|:-----|
 |cmake-head|![cmake-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCMake%2Fcmake-head.json)|
 
-## CPP
-
-|version|status|
-|:------|:-----|
-|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
-|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
-
 ## CoffeeScript
 
 |version|status|
@@ -255,6 +248,13 @@
 |coffeescript-1.12.3|![coffeescript-1.12.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCoffeeScript%2Fcoffeescript-1.12.3.json)|
 |coffeescript-1.11.1|![coffeescript-1.11.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCoffeeScript%2Fcoffeescript-1.11.1.json)|
 |coffeescript-1.10.0|![coffeescript-1.10.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCoffeeScript%2Fcoffeescript-1.10.0.json)|
+
+## CPP
+
+|version|status|
+|:------|:-----|
+|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
+|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
 
 ## Crystal
 
@@ -517,17 +517,6 @@
 |openssl-1.0.0s|![openssl-1.0.0s](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-1.0.0s.json)|
 |openssl-0.9.8zh|![openssl-0.9.8zh](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-0.9.8zh.json)|
 
-## PHP
-
-|version|status|
-|:------|:-----|
-|php-head|![php-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-head.json)|
-|php-7.3.3|![php-7.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.3.3.json)|
-|php-7.1.6|![php-7.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.6.json)|
-|php-7.1.2|![php-7.1.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.2.json)|
-|php-5.6.30|![php-5.6.30](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.6.30.json)|
-|php-5.5.6|![php-5.5.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.5.6.json)|
-
 ## Pascal
 
 |version|status|
@@ -553,6 +542,17 @@
 |perl-5.22.3|![perl-5.22.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.22.3.json)|
 |perl-5.20.3|![perl-5.20.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.20.3.json)|
 |perl-5.18.4|![perl-5.18.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.18.4.json)|
+
+## PHP
+
+|version|status|
+|:------|:-----|
+|php-head|![php-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-head.json)|
+|php-7.3.3|![php-7.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.3.3.json)|
+|php-7.1.6|![php-7.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.6.json)|
+|php-7.1.2|![php-7.1.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.2.json)|
+|php-5.6.30|![php-5.6.30](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.6.30.json)|
+|php-5.5.6|![php-5.5.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.5.6.json)|
 
 ## Pony
 
@@ -646,15 +646,6 @@
 |rust-1.15.0|![rust-1.15.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.15.0.json)|
 |rust-1.7.0|![rust-1.7.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.7.0.json)|
 
-## SQL
-
-|version|status|
-|:------|:-----|
-|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
-|sqlite-3.19.3|![sqlite-3.19.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.19.3.json)|
-|sqlite-3.17.0|![sqlite-3.17.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.17.0.json)|
-|sqlite-3.8.1|![sqlite-3.8.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.8.1.json)|
-
 ## Scala
 
 |version|status|
@@ -665,6 +656,15 @@
 |scala-2.12.2|![scala-2.12.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FScala%2Fscala-2.12.2.json)|
 |scala-2.12.1|![scala-2.12.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FScala%2Fscala-2.12.1.json)|
 |scala-2.11.8|![scala-2.11.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FScala%2Fscala-2.11.8.json)|
+
+## SQL
+
+|version|status|
+|:------|:-----|
+|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
+|sqlite-3.19.3|![sqlite-3.19.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.19.3.json)|
+|sqlite-3.17.0|![sqlite-3.17.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.17.0.json)|
+|sqlite-3.8.1|![sqlite-3.8.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.8.1.json)|
 
 ## Swift
 
