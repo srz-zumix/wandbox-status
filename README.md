@@ -46,6 +46,8 @@
 
 ## Head
 
+[wandbox-builder GitHub Actions](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
+
 |language|name|version|status|
 |:------|:------|:-----|:-----|
 |C|gcc-head-c|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2Fgcc-head-c-version.json)|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-head-c.json)|
