@@ -47,6 +47,7 @@
 ## Head
 
 [wandbox-builder GitHub Actions](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
+ [![heads](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml/badge.svg)](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
 
 |language|name|version|status|
 |:------|:------|:-----|:-----|
