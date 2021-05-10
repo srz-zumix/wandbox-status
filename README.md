@@ -105,6 +105,7 @@
 |version|status|
 |:------|:-----|
 |gcc-head-c|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-head-c.json)|
+|gcc-11.1.0-c|![gcc-11.1.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-11.1.0-c.json)|
 |gcc-10.1.0-c|![gcc-10.1.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-10.1.0-c.json)|
 |gcc-9.3.0-c|![gcc-9.3.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-9.3.0-c.json)|
 |gcc-9.2.0-c|![gcc-9.2.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-9.2.0-c.json)|
@@ -180,6 +181,7 @@
 |version|status|
 |:------|:-----|
 |gcc-head|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-head.json)|
+|gcc-11.1.0|![gcc-11.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-11.1.0.json)|
 |gcc-10.1.0|![gcc-10.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-10.1.0.json)|
 |gcc-9.3.0|![gcc-9.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-9.3.0.json)|
 |gcc-9.2.0|![gcc-9.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-9.2.0.json)|
@@ -472,6 +474,7 @@
 |version|status|
 |:------|:-----|
 |nim-head|![nim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-head.json)|
+|nim-1.4.6|![nim-1.4.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.4.6.json)|
 |nim-1.4.4|![nim-1.4.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.4.4.json)|
 |nim-1.4.2|![nim-1.4.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.4.2.json)|
 |nim-1.4.0|![nim-1.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.4.0.json)|
