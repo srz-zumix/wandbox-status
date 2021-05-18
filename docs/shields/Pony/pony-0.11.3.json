@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Pony: pony-0.11.3",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
