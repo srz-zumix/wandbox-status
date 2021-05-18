@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Vim script: vim-7.4.729",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
