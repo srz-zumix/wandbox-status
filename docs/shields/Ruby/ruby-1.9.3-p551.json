@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Ruby: ruby-1.9.3-p551",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
