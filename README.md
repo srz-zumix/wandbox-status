@@ -537,6 +537,7 @@
 |version|status|
 |:------|:-----|
 |perl-head|![perl-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-head.json)|
+|perl-5.34.0|![perl-5.34.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.34.0.json)|
 |perl-5.32.0|![perl-5.32.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.32.0.json)|
 |perl-5.30.1|![perl-5.30.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.30.1.json)|
 |perl-5.30.0|![perl-5.30.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.30.0.json)|
