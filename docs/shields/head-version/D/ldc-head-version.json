@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "D: ldc-head",
-  "message": "1.27.0-git-383129c dmd-2.097.0",
+  "message": "1.27.0-beta2 dmd-2.097.0",
   "color": "blue"
 }
