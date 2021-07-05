@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Erlang: erlang-19.2",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
