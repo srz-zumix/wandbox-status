@@ -69,6 +69,7 @@
 |Erlang|erlang-head|![erlang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FErlang%2Ferlang-head-version.json)|![erlang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FErlang%2Ferlang-head.json)|
 |F#|fsharp-head|![fsharp-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FF%2523%2Ffsharp-head-version.json)|![fsharp-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-head.json)|
 |Go|go-head|![go-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FGo%2Fgo-head-version.json)|![go-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FGo%2Fgo-head.json)|
+|Haskell|ghc-head|![ghc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FHaskell%2Fghc-head-version.json)|![ghc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-head.json)|
 |Java|openjdk-head|![openjdk-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FJava%2Fopenjdk-head-version.json)|![openjdk-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJava%2Fopenjdk-head.json)|
 |JavaScript|nodejs-head|![nodejs-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FJavaScript%2Fnodejs-head-version.json)|![nodejs-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fnodejs-head.json)|
 |Julia|julia-head|![julia-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FJulia%2Fjulia-head-version.json)|![julia-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJulia%2Fjulia-head.json)|
@@ -383,6 +384,7 @@
 
 |version|status|
 |:------|:-----|
+|ghc-head|![ghc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-head.json)|
 |ghc-8.4.2|![ghc-8.4.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-8.4.2.json)|
 |ghc-8.2.1|![ghc-8.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-8.2.1.json)|
 |ghc-8.0.2|![ghc-8.0.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-8.0.2.json)|
