@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "TypeScript: typescript-3.6.5",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
