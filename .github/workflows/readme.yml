@@ -1,4 +1,4 @@
-name: head-version
+name: Readme
 on:
   schedule:
     - cron: '0 0 * * *'

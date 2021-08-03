@@ -26,15 +26,25 @@ cat - << EOS > "${SELF_DIR}/shields/head-version/$1/$2-version.json"
 EOS
 }
 
+function status_page {
+    dateTime=$(date +'%Y-%m-%d %H:%M')
+    echo $dateTime, $2 >> "${SELF_DIR}/logs/$1_report.log"
+}
+
+function write_halth {
+    shields "$1" "$2" "$5" "$4"
+    status_page "$1__$2" "$3"
+}
+
 function run_wandbox {
     wandbox -l "$1" -c "$2" version
 }
 function status {
     if run_wandbox "$1" "$2" | tee log.txt; then
         VERSION=$(sed -E "s/[ ]*https?:\/\/[a-zA-Z0-9/:%#\$&\?\(\)~\.=\+\-]+[ ]*//g" log.txt)
-        shields "$1" "$2" "${VERSION}" blue
+        write_halth "$1" "$2" succeeded blue "${VERSION}"
     else
-        shields "$1" "$2" failed red
+        write_halth "$1" "$2" failed red failed
         cat log.txt
     fi
     rm -f log.txt
