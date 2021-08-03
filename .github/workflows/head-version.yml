@@ -20,7 +20,7 @@ jobs:
       run: |
         rm -rf ./docs/shields/head-version
     - name: make docs
-      run: ./docs/make-head-version-shields-endpoint.sh
+      run: ./docs/health-check-head.sh
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}

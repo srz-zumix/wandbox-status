@@ -26,6 +26,16 @@ cat - << EOS > "${SELF_DIR}/shields/$1/$2.json"
 EOS
 }
 
+function status_page {
+    dateTime=$(date +'%Y-%m-%d %H:%M')
+    echo $dateTime, $2 >> "${SELF_DIR}/logs/$1_report.log"
+}
+
+function write_halth {
+    shields "$1" "$2" "$3" "$4"
+    status_page "$1__$2" "$3"
+}
+
 function run_wandbox {
     if [ -f "${SELF_DIR}/../templates/$1/template.txt" ]; then
         wandbox -l "$1" -c "$2" run "${SELF_DIR}/../templates/$1/template.txt"
@@ -35,9 +45,9 @@ function run_wandbox {
 }
 function status_test {
     if run_wandbox "$1" "$2" | tee log.txt | grep "$3"; then
-        shields "$1" "$2" succeeded green
+        write_halth "$1" "$2" succeeded green
     else
-        shields "$1" "$2" failed red
+        write_halth "$1" "$2" failed red
         cat log.txt
     fi
     rm -f log.txt

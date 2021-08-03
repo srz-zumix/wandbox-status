@@ -1,7 +1,7 @@
 name: SQL
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 1 * * *'
 
 jobs:
   make-docs:
@@ -22,7 +22,7 @@ jobs:
       run: |
         rm -rf ./docs/shields/${LANGUAGE}
     - name: make docs
-      run: ./docs/make-shields-endpoint.sh -l "${LANGUAGE}"
+      run: ./docs/health-check.sh -l "${LANGUAGE}"
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}
