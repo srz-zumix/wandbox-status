@@ -28,7 +28,7 @@ EOS
 
 function status_page {
     dateTime=$(date +'%Y-%m-%d %H:%M')
-    echo $dateTime, $2 >> "${SELF_DIR}/logs/$1_report.log"
+    echo $dateTime, $2 >> "${SELF_DIR}/logs/$1_report.csv"
 }
 
 function write_halth {
