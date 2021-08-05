@@ -1,0 +1,8 @@
+erlang-head
+erlang-21.2
+erlang-21.0
+erlang-20.1
+erlang-20.0
+erlang-19.2
+erlang-18.3
+erlang-17.5

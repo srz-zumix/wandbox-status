@@ -1,0 +1,11 @@
+mono-head
+mono-5.8.0.108
+mono-5.4.0.199
+mono-5.0.1.1
+mono-4.8.0.382
+mono-3.12.1
+mono-3.12.0
+mono-3.4.0
+mono-3.2.0
+dotnetcore-head
+dotnetcore-2.1.401

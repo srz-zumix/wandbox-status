@@ -1,0 +1,63 @@
+<!--
+ISC License (ISC)
+Copyright (c) 2021, Statsig, Inc.
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+-->
+
+<html>
+  <head>
+    <title>Wandbox Status Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div class="headline">
+        <span><a href=".">Wandbox Versions Status</a></span>
+      </div>
+      <div id="reports" class="reportContainer"></div>
+      <div id="tooltip" class="tooltip" style="opacity: 0">
+        <div id="tooltipArrow" class="tooltipArrow"></div>
+        <div id="tooltipDateTime" class="tooltipDateTime"></div>
+        <div id="tooltipStatus" class="tooltipStatus"></div>
+        <hr />
+        <div id="tooltipDescription" class="tooltipDescription"></div>
+      </div>
+      <div id="templates" style="display: none">
+        <div
+          id="statusSquareTemplate"
+          class="statusSquare $color"
+          data-status="$color"
+        ></div>
+        <div id="statusLineTemplate" class="statusLine"></div>
+        <div id="statusLangVersionContainerTemplate">
+        </div>
+        <div
+          id="statusVersionStreamContainerTemplate"
+          class="statusStreamContainer"
+        ><div class="statusVersion">$version</div></div>
+        <div id="statusLangContainerTemplate" class="statusContainer">
+          <div id="$lang" class="statusHeader">
+            <h6 class="statusTitle"><a href="./?lang=$urlParamLang">$title</a>&nbsp;</h6>
+            <div class="$color statusHeadline">$status</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    generateAllReport();
+  </script>
+</html>

@@ -1,0 +1,9 @@
+swift-head
+swift-5.0.1
+swift-4.0
+swift-3.1.1
+swift-3.0.2
+swift-3.0.1
+swift-3.0
+swift-2.2.1
+swift-2.2
