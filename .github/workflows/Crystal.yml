@@ -1,7 +1,7 @@
 name: Crystal
 on:
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '16 8 * * *'
 
 jobs:
   make-docs:

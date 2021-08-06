@@ -1,7 +1,7 @@
 name: Haskell
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '15 15 * * *'
 
 jobs:
   make-docs:

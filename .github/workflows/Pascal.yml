@@ -1,7 +1,7 @@
 name: Pascal
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '5 1 * * *'
 
 jobs:
   make-docs:

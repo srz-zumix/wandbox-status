@@ -1,7 +1,7 @@
 name: Swift
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '12 12 * * *'
 
 jobs:
   make-docs:

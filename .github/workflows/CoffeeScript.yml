@@ -1,7 +1,7 @@
 name: CoffeeScript
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '42 6 * * *'
 
 jobs:
   make-docs:

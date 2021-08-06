@@ -1,7 +1,7 @@
 name: D
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '33 9 * * *'
 
 jobs:
   make-docs:

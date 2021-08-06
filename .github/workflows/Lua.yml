@@ -1,7 +1,7 @@
 name: Lua
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '57 21 * * *'
 
 jobs:
   make-docs:

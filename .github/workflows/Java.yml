@@ -1,7 +1,7 @@
 name: Java
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '32 16 * * *'
 
 jobs:
   make-docs:
