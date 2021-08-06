@@ -36,6 +36,8 @@ async function generateAllReport() {
             await generateLangVersionsReport(lang, versions)
         }
     }
+    const spinner = document.getElementById('loading')
+    spinner.classList.add('loaded')
 }
 
 async function generateLangVersionsReport(lang, versionFilter) {
