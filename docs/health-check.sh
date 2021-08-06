@@ -68,6 +68,7 @@ function versions {
     fi
 }
 
+
 while IFS= read -a line ; do {
     LANG=${line%:*}
     COMP=${line#*: }
@@ -77,3 +78,5 @@ while IFS= read -a line ; do {
 };
 done < <(versions)
 unset line;
+
+./make-keyfiles.sh $*

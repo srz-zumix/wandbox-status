@@ -3,13 +3,24 @@
 [Wandbox][] status  
 [Wandbox][] new compiler notification: [wandbox-news](https://github.com/srz-zumix/wandbox-news)
 
-## Language List
+## Status Page
+
+[https://srz-zumix.github.io/wandbox-status/](https://srz-zumix.github.io/wandbox-status/)
+
+## Status Badge
+
+* Status badge  
+  https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F<< lang >>%2F<< version >>.json
+* Head version badge  
+  https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2F<< lang >>%2F<< version >>-version.json
+
+### Language List
 {% set lang_list = wandbox_languages() | markdown_link_pair %}
 {%- for lang in lang_list %}
 * [{{ lang.name }}](#{{ lang.link }})
 {%- endfor %}
 
-## Head
+### Head
 
 [wandbox-builder GitHub Actions](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
  [![heads](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml/badge.svg)](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
@@ -27,7 +38,7 @@
 {%- set lang_list = wandbox_languages() %}
 {%- for lang in lang_list %}
 
-## {{ lang }}
+### {{ lang }}
 
 |version|status|
 |:------|:-----|

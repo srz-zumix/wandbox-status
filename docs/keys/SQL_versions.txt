@@ -1,0 +1,4 @@
+sqlite-head
+sqlite-3.19.3
+sqlite-3.17.0
+sqlite-3.8.1

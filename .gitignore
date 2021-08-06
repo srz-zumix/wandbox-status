@@ -130,3 +130,4 @@ dmypy.json
 
 # wandbox-status
 log.txt
+tmp/

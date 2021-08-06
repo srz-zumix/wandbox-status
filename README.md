@@ -3,15 +3,26 @@
 [Wandbox][] status  
 [Wandbox][] new compiler notification: [wandbox-news](https://github.com/srz-zumix/wandbox-news)
 
-## Language List
+## Status Page
+
+[https://srz-zumix.github.io/wandbox-status/](https://srz-zumix.github.io/wandbox-status/)
+
+## Status Badge
+
+* Status badge  
+  https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2F<< lang >>%2F<< version >>.json
+* Head version badge  
+  https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2F<< lang >>%2F<< version >>-version.json
+
+### Language List
 
 * [Bash script](#Bash-script)
 * [C](#C)
 * [C#](#C-1)
 * [C++](#C-2)
 * [CMake](#CMake)
-* [CoffeeScript](#CoffeeScript)
 * [CPP](#CPP)
+* [CoffeeScript](#CoffeeScript)
 * [Crystal](#Crystal)
 * [D](#D)
 * [Elixir](#Elixir)
@@ -29,22 +40,22 @@
 * [Nim](#Nim)
 * [OCaml](#OCaml)
 * [OpenSSL](#OpenSSL)
+* [PHP](#PHP)
 * [Pascal](#Pascal)
 * [Perl](#Perl)
-* [PHP](#PHP)
 * [Pony](#Pony)
 * [Python](#Python)
 * [R](#R)
 * [Rill](#Rill)
 * [Ruby](#Ruby)
 * [Rust](#Rust)
-* [Scala](#Scala)
 * [SQL](#SQL)
+* [Scala](#Scala)
 * [Swift](#Swift)
 * [TypeScript](#TypeScript)
 * [Vim script](#Vim-script)
 
-## Head
+### Head
 
 [wandbox-builder GitHub Actions](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
  [![heads](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml/badge.svg)](https://github.com/melpon/wandbox-builder/actions/workflows/heads.yml)
@@ -94,13 +105,13 @@
 |Swift|swift-head|![swift-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FSwift%2Fswift-head-version.json)|![swift-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-head.json)|
 |Vim script|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FVim%2520script%2Fvim-head-version.json)|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-head.json)|
 
-## Bash script
+### Bash script
 
 |version|status|
 |:------|:-----|
 |bash|![bash](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FBash%2520script%2Fbash.json)|
 
-## C
+### C
 
 |version|status|
 |:------|:-----|
@@ -160,7 +171,7 @@
 |clang-3.2-c|![clang-3.2-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-3.2-c.json)|
 |clang-3.1-c|![clang-3.1-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-3.1-c.json)|
 
-## C#
+### C#
 
 |version|status|
 |:------|:-----|
@@ -176,7 +187,7 @@
 |dotnetcore-head|![dotnetcore-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fdotnetcore-head.json)|
 |dotnetcore-2.1.401|![dotnetcore-2.1.401](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2523%2Fdotnetcore-2.1.401.json)|
 
-## C++
+### C++
 
 |version|status|
 |:------|:-----|
@@ -237,13 +248,20 @@
 |zapcc-2017.08|![zapcc-2017.08](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fzapcc-2017.08.json)|
 |zapcc-1.0.1|![zapcc-1.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fzapcc-1.0.1.json)|
 
-## CMake
+### CMake
 
 |version|status|
 |:------|:-----|
 |cmake-head|![cmake-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCMake%2Fcmake-head.json)|
 
-## CoffeeScript
+### CPP
+
+|version|status|
+|:------|:-----|
+|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
+|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
+
+### CoffeeScript
 
 |version|status|
 |:------|:-----|
@@ -254,14 +272,7 @@
 |coffeescript-1.11.1|![coffeescript-1.11.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCoffeeScript%2Fcoffeescript-1.11.1.json)|
 |coffeescript-1.10.0|![coffeescript-1.10.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCoffeeScript%2Fcoffeescript-1.10.0.json)|
 
-## CPP
-
-|version|status|
-|:------|:-----|
-|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
-|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
-
-## Crystal
+### Crystal
 
 |version|status|
 |:------|:-----|
@@ -273,7 +284,7 @@
 |crystal-0.21.1|![crystal-0.21.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCrystal%2Fcrystal-0.21.1.json)|
 |crystal-0.20.5|![crystal-0.20.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCrystal%2Fcrystal-0.20.5.json)|
 
-## D
+### D
 
 |version|status|
 |:------|:-----|
@@ -288,7 +299,7 @@
 |ldc-1.2.0|![ldc-1.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fldc-1.2.0.json)|
 |ldc-1.1.1|![ldc-1.1.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fldc-1.1.1.json)|
 
-## Elixir
+### Elixir
 
 |version|status|
 |:------|:-----|
@@ -303,7 +314,7 @@
 |elixir-1.4.1|![elixir-1.4.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FElixir%2Felixir-1.4.1.json)|
 |elixir-1.3.4|![elixir-1.3.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FElixir%2Felixir-1.3.4.json)|
 
-## Erlang
+### Erlang
 
 |version|status|
 |:------|:-----|
@@ -316,7 +327,7 @@
 |erlang-18.3|![erlang-18.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FErlang%2Ferlang-18.3.json)|
 |erlang-17.5|![erlang-17.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FErlang%2Ferlang-17.5.json)|
 
-## F#
+### F#
 
 |version|status|
 |:------|:-----|
@@ -326,7 +337,7 @@
 |fsharp-4.0.0.4|![fsharp-4.0.0.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-4.0.0.4.json)|
 |fsharp-3.1.1.26|![fsharp-3.1.1.26](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FF%2523%2Ffsharp-3.1.1.26.json)|
 
-## Go
+### Go
 
 |version|status|
 |:------|:-----|
@@ -370,7 +381,7 @@
 |go-1.6.3|![go-1.6.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FGo%2Fgo-1.6.3.json)|
 |go-1.5.4|![go-1.5.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FGo%2Fgo-1.5.4.json)|
 
-## Groovy
+### Groovy
 
 |version|status|
 |:------|:-----|
@@ -380,7 +391,7 @@
 |groovy-2.4.11|![groovy-2.4.11](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FGroovy%2Fgroovy-2.4.11.json)|
 |groovy-2.4.8|![groovy-2.4.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FGroovy%2Fgroovy-2.4.8.json)|
 
-## Haskell
+### Haskell
 
 |version|status|
 |:------|:-----|
@@ -392,7 +403,7 @@
 |ghc-7.8.3|![ghc-7.8.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-7.8.3.json)|
 |ghc-7.6.3|![ghc-7.6.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FHaskell%2Fghc-7.6.3.json)|
 
-## Java
+### Java
 
 |version|status|
 |:------|:-----|
@@ -406,7 +417,7 @@
 |openjdk-jdk8u121-b13|![openjdk-jdk8u121-b13](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJava%2Fopenjdk-jdk8u121-b13.json)|
 |openjdk-jdk7u121-b00|![openjdk-jdk7u121-b00](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJava%2Fopenjdk-jdk7u121-b00.json)|
 
-## JavaScript
+### JavaScript
 
 |version|status|
 |:------|:-----|
@@ -430,7 +441,7 @@
 |spidermonkey-31.2.0.rc0|![spidermonkey-31.2.0.rc0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fspidermonkey-31.2.0.rc0.json)|
 |spidermonkey-24.2.0|![spidermonkey-24.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fspidermonkey-24.2.0.json)|
 
-## Julia
+### Julia
 
 |version|status|
 |:------|:-----|
@@ -439,13 +450,13 @@
 |julia-1.5.3|![julia-1.5.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJulia%2Fjulia-1.5.3.json)|
 |julia-1.0.5|![julia-1.0.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJulia%2Fjulia-1.0.5.json)|
 
-## Lazy K
+### Lazy K
 
 |version|status|
 |:------|:-----|
 |lazyk|![lazyk](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLazy%2520K%2Flazyk.json)|
 
-## Lisp
+### Lisp
 
 |version|status|
 |:------|:-----|
@@ -455,7 +466,7 @@
 |sbcl-1.3.15|![sbcl-1.3.15](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLisp%2Fsbcl-1.3.15.json)|
 |sbcl-1.2.16|![sbcl-1.2.16](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLisp%2Fsbcl-1.2.16.json)|
 
-## Lua
+### Lua
 
 |version|status|
 |:------|:-----|
@@ -469,7 +480,7 @@
 |luajit-2.0.3|![luajit-2.0.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLua%2Fluajit-2.0.3.json)|
 |luajit-2.0.2|![luajit-2.0.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLua%2Fluajit-2.0.2.json)|
 
-## Nim
+### Nim
 
 |version|status|
 |:------|:-----|
@@ -500,7 +511,7 @@
 |nim-0.17.0|![nim-0.17.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-0.17.0.json)|
 |nim-0.16.0|![nim-0.16.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-0.16.0.json)|
 
-## OCaml
+### OCaml
 
 |version|status|
 |:------|:-----|
@@ -510,7 +521,7 @@
 |ocaml-4.04.2|![ocaml-4.04.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOCaml%2Focaml-4.04.2.json)|
 |ocaml-4.04.0|![ocaml-4.04.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOCaml%2Focaml-4.04.0.json)|
 
-## OpenSSL
+### OpenSSL
 
 |version|status|
 |:------|:-----|
@@ -523,7 +534,18 @@
 |openssl-1.0.0s|![openssl-1.0.0s](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-1.0.0s.json)|
 |openssl-0.9.8zh|![openssl-0.9.8zh](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-0.9.8zh.json)|
 
-## Pascal
+### PHP
+
+|version|status|
+|:------|:-----|
+|php-head|![php-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-head.json)|
+|php-7.3.3|![php-7.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.3.3.json)|
+|php-7.1.6|![php-7.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.6.json)|
+|php-7.1.2|![php-7.1.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.2.json)|
+|php-5.6.30|![php-5.6.30](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.6.30.json)|
+|php-5.5.6|![php-5.5.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.5.6.json)|
+
+### Pascal
 
 |version|status|
 |:------|:-----|
@@ -532,7 +554,7 @@
 |fpc-2.6.4|![fpc-2.6.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPascal%2Ffpc-2.6.4.json)|
 |fpc-2.6.2|![fpc-2.6.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPascal%2Ffpc-2.6.2.json)|
 
-## Perl
+### Perl
 
 |version|status|
 |:------|:-----|
@@ -550,18 +572,7 @@
 |perl-5.20.3|![perl-5.20.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.20.3.json)|
 |perl-5.18.4|![perl-5.18.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.18.4.json)|
 
-## PHP
-
-|version|status|
-|:------|:-----|
-|php-head|![php-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-head.json)|
-|php-7.3.3|![php-7.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.3.3.json)|
-|php-7.1.6|![php-7.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.6.json)|
-|php-7.1.2|![php-7.1.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.1.2.json)|
-|php-5.6.30|![php-5.6.30](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.6.30.json)|
-|php-5.5.6|![php-5.5.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.5.6.json)|
-
-## Pony
+### Pony
 
 |version|status|
 |:------|:-----|
@@ -569,7 +580,7 @@
 |pony-0.14.0|![pony-0.14.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPony%2Fpony-0.14.0.json)|
 |pony-0.11.3|![pony-0.11.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPony%2Fpony-0.11.3.json)|
 
-## Python
+### Python
 
 |version|status|
 |:------|:-----|
@@ -596,20 +607,20 @@
 |pypy-2.6.1|![pypy-2.6.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-2.6.1.json)|
 |pypy-2.1|![pypy-2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-2.1.json)|
 
-## R
+### R
 
 |version|status|
 |:------|:-----|
 |r-head|![r-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FR%2Fr-head.json)|
 |r-3.5.1|![r-3.5.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FR%2Fr-3.5.1.json)|
 
-## Rill
+### Rill
 
 |version|status|
 |:------|:-----|
 |rill-head|![rill-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRill%2Frill-head.json)|
 
-## Ruby
+### Ruby
 
 |version|status|
 |:------|:-----|
@@ -644,7 +655,7 @@
 |mruby-1.1.0|![mruby-1.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.1.0.json)|
 |mruby-1.0.0|![mruby-1.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-1.0.0.json)|
 
-## Rust
+### Rust
 
 |version|status|
 |:------|:-----|
@@ -653,7 +664,16 @@
 |rust-1.15.0|![rust-1.15.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.15.0.json)|
 |rust-1.7.0|![rust-1.7.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.7.0.json)|
 
-## Scala
+### SQL
+
+|version|status|
+|:------|:-----|
+|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
+|sqlite-3.19.3|![sqlite-3.19.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.19.3.json)|
+|sqlite-3.17.0|![sqlite-3.17.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.17.0.json)|
+|sqlite-3.8.1|![sqlite-3.8.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.8.1.json)|
+
+### Scala
 
 |version|status|
 |:------|:-----|
@@ -664,16 +684,7 @@
 |scala-2.12.1|![scala-2.12.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FScala%2Fscala-2.12.1.json)|
 |scala-2.11.8|![scala-2.11.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FScala%2Fscala-2.11.8.json)|
 
-## SQL
-
-|version|status|
-|:------|:-----|
-|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
-|sqlite-3.19.3|![sqlite-3.19.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.19.3.json)|
-|sqlite-3.17.0|![sqlite-3.17.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.17.0.json)|
-|sqlite-3.8.1|![sqlite-3.8.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-3.8.1.json)|
-
-## Swift
+### Swift
 
 |version|status|
 |:------|:-----|
@@ -687,7 +698,7 @@
 |swift-2.2.1|![swift-2.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-2.2.1.json)|
 |swift-2.2|![swift-2.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-2.2.json)|
 
-## TypeScript
+### TypeScript
 
 |version|status|
 |:------|:-----|
@@ -765,7 +776,7 @@
 |typescript-1.0.1|![typescript-1.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.0.1.json)|
 |typescript-1.0.0|![typescript-1.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-1.0.0.json)|
 
-## Vim script
+### Vim script
 
 |version|status|
 |:------|:-----|
