@@ -9,3 +9,8 @@ help: ## show help
 
 server: ## create docs local server
 	cd docs; python3 -m http.server
+
+readme: README.md
+
+README.md: README.md.j2
+	amaterasu README.md.j2 > README.md
