@@ -1,7 +1,7 @@
 name: C++
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '8 4 * * *'
 
 jobs:
   make-docs:

@@ -1,7 +1,7 @@
 name: Pony
 on:
   schedule:
-    - cron: '0 13 * * *'
+    - cron: '56 4 * * *'
 
 jobs:
   make-docs:

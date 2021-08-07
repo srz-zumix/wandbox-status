@@ -1,7 +1,7 @@
 name: Elixir
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '50 10 * * *'
 
 jobs:
   make-docs:

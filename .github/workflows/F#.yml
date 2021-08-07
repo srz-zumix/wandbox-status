@@ -1,7 +1,7 @@
 name: F#
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '24 12 * * *'
 
 jobs:
   make-docs:

@@ -1,7 +1,7 @@
 name: Vim script
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '46 14 * * *'
 
 jobs:
   make-docs:

@@ -1,7 +1,7 @@
 name: Perl
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '22 2 * * *'
 
 jobs:
   make-docs:

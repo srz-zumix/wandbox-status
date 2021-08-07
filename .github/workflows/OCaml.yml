@@ -1,7 +1,7 @@
 name: OCaml
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '31 23 * * *'
 
 jobs:
   make-docs:

@@ -1,7 +1,7 @@
 name: Rill
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '47 7 * * *'
 
 jobs:
   make-docs:

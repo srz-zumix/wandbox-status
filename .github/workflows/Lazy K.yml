@@ -1,7 +1,7 @@
 name: Lazy K
 on:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '23 19 * * *'
 
 jobs:
   make-docs:
