@@ -40,37 +40,81 @@ async function generateAllReport() {
     spinner.classList.add('loaded')
 }
 
-async function generateLangVersionsReport(lang, versionFilter) {
-    const versionsContainer = templatize("statusLangVersionContainerTemplate", {
-        title: lang,
-    });
-
-    const path = normalizedFilePath(`keys/${lang}_versions.txt`)
+async function generateLangVersionsContainerReportFromAll(lang, container, versionFilter) {
+    const path = normalizedFilePath(`logs/${lang}_versions_report.csv`)
     const f = await fetch(path)
+    if( ! f.ok ) {
+        return [null, 0]
+    }
+
     let upTimes = []
     for( let i=0; i < maxDays; ++i ) {
         upTimes.push([])
     }
     let count = 0
-    if( f.ok ) {
-        const versionsText = await f.text()
-        const versions = versionsText.split("\n")
-        for(let i = 0; i < versions.length; ++i ) {
-            const version = regexFilter(versions[i].trim(), versionFilter)
-            if( version ) {
-                count++
-                const [statusStream, normalized] = await generateReport(lang, version)
-                versionsContainer.appendChild(statusStream)
-                for( let n=0; n < upTimes.length; ++n ) {
-                    const lastSet = normalized.status[n]
-                    if( lastSet >= 0 ){
-                        upTimes[n].push(lastSet)
-                    }
+    const versionsReportText = await f.text()
+    const versionsReport = versionsReportText.split("--- ")
+    for(let i = 0; i < versionsReport.length; ++i ) {
+        const lines = versionsReport[i].split("\n")
+        const version = regexFilter(lines[0].trim(), versionFilter)
+        if( version ) {
+            count++
+            const [statusStream, normalized] = generateReportFromStatusLines(lang, version, lines.slice(1,-1))
+            container.appendChild(statusStream)
+            for( let n=0; n < upTimes.length; ++n ) {
+                const lastSet = normalized.status[n]
+                if( lastSet >= 0 ){
+                    upTimes[n].push(lastSet)
                 }
             }
         }
     }
+    return [upTimes, count]
+}
+async function generateLangVersionsContainerReportFromEachFile(lang, container, versionFilter) {
+    const path = normalizedFilePath(`keys/${lang}_versions.txt`)
+    const f = await fetch(path)
+    if( !f.ok ) {
+        return [null, 0]
+    }
 
+    let upTimes = []
+    for( let i=0; i < maxDays; ++i ) {
+        upTimes.push([])
+    }
+    let count = 0
+    const versionsText = await f.text()
+    const versions = versionsText.split("\n")
+    for(let i = 0; i < versions.length; ++i ) {
+        const version = regexFilter(versions[i].trim(), versionFilter)
+        if( version ) {
+            count++
+            const [statusStream, normalized] = await generateReport(lang, version)
+            container.appendChild(statusStream)
+            for( let n=0; n < upTimes.length; ++n ) {
+                const lastSet = normalized.status[n]
+                if( lastSet >= 0 ){
+                    upTimes[n].push(lastSet)
+                }
+            }
+        }
+    }
+    return [upTimes, count]
+}
+async function generateLangVersionsContainerReport(lang, container, versionFilter) {
+    const [upTimes, count] = await generateLangVersionsContainerReportFromAll(lang, container, versionFilter)
+    if( upTimes ) {
+        return [upTimes, count]
+    }
+    return await generateLangVersionsContainerReportFromEachFile(lang, container, versionFilter)
+}
+
+async function generateLangVersionsReport(lang, versionFilter) {
+    const versionsContainer = templatize("statusLangVersionContainerTemplate", {
+        title: lang,
+    });
+
+    const [upTimes, count] = await generateLangVersionsContainerReport(lang, versionsContainer, versionFilter)
     if( versionFilter && versionFilter.length > 0 && count == 0) {
         return
     }
@@ -97,7 +141,10 @@ async function generateReport(lang, version) {
     if( f.ok ) {
         statusLines = await f.text()
     }
+    return generateReportFromStatusLines(lang, version, statusLines.split("\n"))
+}
 
+function generateReportFromStatusLines(lang, version, statusLines) {
     const normalized = normalizeStatusData(statusData(statusLines))
     const statusStream = constructStatusStream(lang, version, normalized);
     return [statusStream, normalized]
@@ -107,9 +154,11 @@ function getRelativeDays(date1, date2) {
     return Math.floor(Math.abs((date1 - date2) / (24 * 3600 * 1000)));
 }
 function getAvailableAverage(valulesArray) {
-    for( let i = 0; i < valulesArray.length; ++i ) {
-        if( valulesArray[i].length != 0 ) {
-            return getAverage(valulesArray[i])
+    if( valulesArray ) {
+        for( let i = 0; i < valulesArray.length; ++i ) {
+            if( valulesArray[i].length != 0 ) {
+                return getAverage(valulesArray[i])
+            }
         }
     }
     return null
@@ -137,9 +186,8 @@ function statusData(lines) {
     let dateValues = {}
     let count = 0
     let succeeded = 0
-    const rows = lines.split("\n")
-    for( let i=0; i < rows.length; ++i ) {
-        const row = rows[i]
+    for( let i=0; i < lines.length; ++i ) {
+        const row = lines[i]
         if( !row ) {
             continue
         }

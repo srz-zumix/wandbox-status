@@ -17,9 +17,10 @@ MIN=0
 while IFS= read -a line ; do {
     LANG=${line}
     HOUR=`echo "($HOUR + 1) % 24" | bc`
+    HOUR2=`echo "($HOUR + 12) % 24" | bc`
     MIN=`echo "($MIN + 17) % 60" | bc`
     echo ${LANG}
-    sed -e "s/TEMPLATE_LANGUAGE/${LANG}/g" -e "s/TEMPLATE_HOUR/${HOUR}/g" -e "s/TEMPLATE_MIN/${MIN}/g" "${SELF_DIR}/docs-template.yml" > "${SELF_DIR}/../workflows/${LANG}.yml"
+    sed -e "s/TEMPLATE_LANGUAGE/${LANG}/g" -e "s/TEMPLATE_HOUR/${HOUR},${HOUR2}/g" -e "s/TEMPLATE_MIN/${MIN}/g" "${SELF_DIR}/docs-template.yml" > "${SELF_DIR}/../workflows/${LANG}.yml"
 };
 done < <(wandbox ${WANDBOX_OPTIONS} -V lang)
 unset line;

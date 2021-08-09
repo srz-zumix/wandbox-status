@@ -28,7 +28,9 @@ EOS
 
 function status_page {
     dateTime=$(date +'%Y-%m-%d %H:%M')
-    echo $dateTime, $2 >> "${SELF_DIR}/logs/$1_report.csv"
+    FILEPATH_="${SELF_DIR}/logs/${1// /_}_report.csv"
+    FILEPATH="${FILEPATH_//#/Sharp}"
+    echo $dateTime, $2 >> "${FILEPATH}"
 }
 
 function write_halth {
@@ -79,4 +81,4 @@ while IFS= read -a line ; do {
 done < <(versions)
 unset line;
 
-./make-keyfiles.sh $*
+"${SELF_DIR}/make-keyfiles.sh" $*

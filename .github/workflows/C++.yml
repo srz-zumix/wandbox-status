@@ -1,7 +1,7 @@
 name: C++
 on:
   schedule:
-    - cron: '8 4 * * *'
+    - cron: '8 4,16 * * *'
 
 jobs:
   make-docs:
@@ -22,7 +22,9 @@ jobs:
       run: |
         rm -rf ./docs/shields/${LANGUAGE}
     - name: make docs
-      run: ./docs/health-check.sh -l "${LANGUAGE}"
+      run: |
+        ./docs/health-check.sh -l "${LANGUAGE}"
+        ./docs/health-check-all-report.sh -l "${LANGUAGE}"
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}
