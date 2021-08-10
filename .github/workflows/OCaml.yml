@@ -1,7 +1,7 @@
 name: OCaml
 on:
   schedule:
-    - cron: '31 23,11 * * *'
+    - cron: '54 11,23 * * *'
 
 jobs:
   make-docs:
@@ -31,6 +31,9 @@ jobs:
         git config --local user.email ${{ github.actor }}@users.noreply.github.com
     - name: commit
       run: |
+        git stash
+        git pull
+        git stash pop
         git add .
         git commit -m "update ${LANGUAGE}" || true
     - name: push

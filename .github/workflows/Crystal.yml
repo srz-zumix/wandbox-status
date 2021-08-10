@@ -1,7 +1,7 @@
 name: Crystal
 on:
   schedule:
-    - cron: '16 8,20 * * *'
+    - cron: '24 8,20 * * *'
 
 jobs:
   make-docs:
@@ -31,6 +31,9 @@ jobs:
         git config --local user.email ${{ github.actor }}@users.noreply.github.com
     - name: commit
       run: |
+        git stash
+        git pull
+        git stash pop
         git add .
         git commit -m "update ${LANGUAGE}" || true
     - name: push
