@@ -29,6 +29,7 @@
 2021-08-22 03:38, succeeded
 2021-08-22 15:39, succeeded
 2021-08-23 03:35, succeeded
+2021-08-23 15:38, succeeded
 --- ghc-8.4.2
 2021-08-03 17:25, succeeded
 2021-08-04 17:22, succeeded
@@ -60,6 +61,7 @@
 2021-08-22 03:38, succeeded
 2021-08-22 15:39, succeeded
 2021-08-23 03:35, succeeded
+2021-08-23 15:38, succeeded
 --- ghc-8.2.1
 2021-08-03 17:25, succeeded
 2021-08-04 17:22, succeeded
@@ -91,6 +93,7 @@
 2021-08-22 03:38, succeeded
 2021-08-22 15:39, succeeded
 2021-08-23 03:35, succeeded
+2021-08-23 15:39, succeeded
 --- ghc-8.0.2
 2021-08-03 17:26, succeeded
 2021-08-04 17:22, succeeded
@@ -122,6 +125,7 @@
 2021-08-22 03:38, succeeded
 2021-08-22 15:39, succeeded
 2021-08-23 03:35, succeeded
+2021-08-23 15:39, succeeded
 --- ghc-7.10.3
 2021-08-03 17:26, succeeded
 2021-08-04 17:22, succeeded
@@ -153,6 +157,7 @@
 2021-08-22 03:38, succeeded
 2021-08-22 15:39, succeeded
 2021-08-23 03:35, succeeded
+2021-08-23 15:39, succeeded
 --- ghc-7.8.3
 2021-08-03 17:26, succeeded
 2021-08-04 17:22, succeeded
@@ -184,6 +189,7 @@
 2021-08-22 03:38, succeeded
 2021-08-22 15:39, succeeded
 2021-08-23 03:35, succeeded
+2021-08-23 15:39, succeeded
 --- ghc-7.6.3
 2021-08-03 17:26, failed
 2021-08-04 17:22, failed
@@ -215,3 +221,4 @@
 2021-08-22 03:38, failed
 2021-08-22 15:40, failed
 2021-08-23 03:35, failed
+2021-08-23 15:39, failed
