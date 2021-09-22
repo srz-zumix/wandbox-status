@@ -107,7 +107,6 @@
 |Rust|rust-head|![rust-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FRust%2Frust-head-version.json)|![rust-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-head.json)|
 |SQL|sqlite-head|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FSQL%2Fsqlite-head-version.json)|![sqlite-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSQL%2Fsqlite-head.json)|
 |Swift|swift-head|![swift-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FSwift%2Fswift-head-version.json)|![swift-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FSwift%2Fswift-head.json)|
-|Vim script|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FVim%2520script%2Fvim-head-version.json)|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-head.json)|
 
 ### Bash script
 
@@ -784,7 +783,6 @@
 
 |version|status|
 |:------|:-----|
-|vim-head|![vim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-head.json)|
 |vim-8.0.0671|![vim-8.0.0671](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.0.0671.json)|
 |vim-8.0.0354|![vim-8.0.0354](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.0.0354.json)|
 |vim-7.4.2367|![vim-7.4.2367](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-7.4.2367.json)|
