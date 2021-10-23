@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Lua: luajit-2.0.5",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
