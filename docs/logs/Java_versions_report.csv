@@ -154,6 +154,7 @@
 2021-10-22 17:07, succeeded
 2021-10-23 04:57, succeeded
 2021-10-23 17:04, failed
+2021-10-24 04:57, failed
 --- openjdk-jdk-11+28
 2021-08-03 04:21, succeeded
 2021-08-04 04:22, succeeded
@@ -310,6 +311,7 @@
 2021-10-22 17:07, succeeded
 2021-10-23 04:57, succeeded
 2021-10-23 17:04, failed
+2021-10-24 04:57, failed
 --- openjdk-jdk-10+23
 2021-08-03 04:21, succeeded
 2021-08-04 04:22, succeeded
@@ -466,6 +468,7 @@
 2021-10-22 17:07, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:04, failed
+2021-10-24 04:57, failed
 --- openjdk-jdk-10+13
 2021-08-03 04:21, succeeded
 2021-08-04 04:22, succeeded
@@ -622,6 +625,7 @@
 2021-10-22 17:07, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:04, failed
+2021-10-24 04:57, failed
 --- openjdk-jdk-9+181
 2021-08-03 04:22, succeeded
 2021-08-04 04:22, succeeded
@@ -778,6 +782,7 @@
 2021-10-22 17:07, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:04, failed
+2021-10-24 04:58, failed
 --- openjdk-jdk-9+175
 2021-08-03 04:22, succeeded
 2021-08-04 04:22, succeeded
@@ -934,6 +939,7 @@
 2021-10-22 17:08, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:05, failed
+2021-10-24 04:58, failed
 --- openjdk-jdk-9+155
 2021-08-03 04:22, succeeded
 2021-08-04 04:22, succeeded
@@ -1090,6 +1096,7 @@
 2021-10-22 17:08, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:05, failed
+2021-10-24 04:58, failed
 --- openjdk-jdk8u121-b13
 2021-08-03 04:22, succeeded
 2021-08-04 04:22, succeeded
@@ -1246,6 +1253,7 @@
 2021-10-22 17:08, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:05, failed
+2021-10-24 04:58, failed
 --- openjdk-jdk7u121-b00
 2021-08-03 04:22, succeeded
 2021-08-04 04:22, succeeded
@@ -1402,3 +1410,4 @@
 2021-10-22 17:08, succeeded
 2021-10-23 04:58, succeeded
 2021-10-23 17:05, failed
+2021-10-24 04:58, failed
