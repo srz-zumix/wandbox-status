@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "OCaml: ocaml-4.04.2",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
