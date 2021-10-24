@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "SQL: sqlite-head",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
