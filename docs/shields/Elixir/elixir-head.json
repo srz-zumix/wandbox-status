@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Elixir: elixir-head",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
