@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "JavaScript: nodejs-12.16.2",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
