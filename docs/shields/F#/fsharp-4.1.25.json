@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "F#: fsharp-4.1.25",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
