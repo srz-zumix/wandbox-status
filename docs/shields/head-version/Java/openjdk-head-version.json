@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Java: openjdk-head",
-  "message": "Server VM warning: Insufficient space for shared memory file:",
+  "message": "12-internal",
   "color": "blue"
 }
