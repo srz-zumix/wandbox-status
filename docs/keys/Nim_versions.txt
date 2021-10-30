@@ -1,4 +1,6 @@
 nim-head
+nim-1.6.0
+nim-1.4.8
 nim-1.4.6
 nim-1.4.4
 nim-1.4.2
