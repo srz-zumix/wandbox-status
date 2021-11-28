@@ -221,6 +221,7 @@
 2021-11-26 20:19, succeeded
 2021-11-27 08:21, succeeded
 2021-11-27 20:18, succeeded
+2021-11-28 08:21, succeeded
 --- sbcl-head
 2021-08-09 08:46, succeeded
 2021-08-09 20:45, succeeded
@@ -444,6 +445,7 @@
 2021-11-26 20:19, succeeded
 2021-11-27 08:21, succeeded
 2021-11-27 20:18, succeeded
+2021-11-28 08:21, succeeded
 --- sbcl-1.3.18
 2021-08-09 08:46, succeeded
 2021-08-09 20:45, succeeded
@@ -667,6 +669,7 @@
 2021-11-26 20:19, succeeded
 2021-11-27 08:21, succeeded
 2021-11-27 20:18, succeeded
+2021-11-28 08:21, succeeded
 --- sbcl-1.3.15
 2021-08-09 08:46, succeeded
 2021-08-09 20:45, succeeded
@@ -890,6 +893,7 @@
 2021-11-26 20:19, succeeded
 2021-11-27 08:21, succeeded
 2021-11-27 20:18, succeeded
+2021-11-28 08:21, succeeded
 --- sbcl-1.2.16
 2021-08-09 08:46, succeeded
 2021-08-09 20:46, succeeded
@@ -1113,3 +1117,4 @@
 2021-11-26 20:19, succeeded
 2021-11-27 08:21, succeeded
 2021-11-27 20:18, succeeded
+2021-11-28 08:21, succeeded
