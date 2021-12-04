@@ -236,6 +236,7 @@
 2021-12-02 22:41, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.6.0
 2021-10-30 22:40, succeeded
 2021-10-31 10:42, succeeded
@@ -306,6 +307,7 @@
 2021-12-02 22:41, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.4.8
 2021-10-30 22:40, succeeded
 2021-10-31 10:42, succeeded
@@ -376,6 +378,7 @@
 2021-12-02 22:41, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.4.6
 2021-08-03 04:25, succeeded
 2021-08-04 04:25, succeeded
@@ -614,6 +617,7 @@
 2021-12-02 22:41, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.4.4
 2021-08-03 04:25, succeeded
 2021-08-04 04:25, succeeded
@@ -852,6 +856,7 @@
 2021-12-02 22:41, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.4.2
 2021-08-03 04:25, succeeded
 2021-08-04 04:25, succeeded
@@ -1090,6 +1095,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.4.0
 2021-08-03 04:25, succeeded
 2021-08-04 04:25, succeeded
@@ -1328,6 +1334,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:43, succeeded
 2021-12-03 22:41, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.2.8
 2021-08-03 04:25, succeeded
 2021-08-04 04:25, succeeded
@@ -1566,6 +1573,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:43, succeeded
 --- nim-1.2.6
 2021-08-03 04:25, succeeded
 2021-08-04 04:25, succeeded
@@ -1804,6 +1812,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.2.4
 2021-08-03 04:25, succeeded
 2021-08-04 04:26, succeeded
@@ -2042,6 +2051,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.2.2
 2021-08-03 04:25, succeeded
 2021-08-04 04:26, succeeded
@@ -2280,6 +2290,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.2.0
 2021-08-03 04:25, succeeded
 2021-08-04 04:26, succeeded
@@ -2518,6 +2529,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.0.10
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -2756,6 +2768,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.0.8
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -2994,6 +3007,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.0.6
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -3232,6 +3246,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.0.4
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -3470,6 +3485,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.0.2
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -3708,6 +3724,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-1.0.0
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -3946,6 +3963,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-0.20.2
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -4184,6 +4202,7 @@
 2021-12-02 22:42, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-0.20.0
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -4422,6 +4441,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:42, succeeded
+2021-12-04 10:44, succeeded
 --- nim-0.19.6
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -4660,6 +4680,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:44, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.19.4
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -4898,6 +4919,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.19.2
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -5136,6 +5158,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.19.0
 2021-08-03 04:26, succeeded
 2021-08-04 04:26, succeeded
@@ -5374,6 +5397,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.18.0
 2021-08-03 04:26, succeeded
 2021-08-04 04:27, succeeded
@@ -5612,6 +5636,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.17.2
 2021-08-03 04:26, succeeded
 2021-08-04 04:27, succeeded
@@ -5850,6 +5875,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.17.0
 2021-08-03 04:27, succeeded
 2021-08-04 04:27, succeeded
@@ -6088,6 +6114,7 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
 --- nim-0.16.0
 2021-08-03 04:27, succeeded
 2021-08-04 04:27, succeeded
@@ -6326,3 +6353,4 @@
 2021-12-02 22:43, succeeded
 2021-12-03 10:45, succeeded
 2021-12-03 22:43, succeeded
+2021-12-04 10:45, succeeded
