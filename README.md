@@ -92,7 +92,6 @@
 |Lua|luajit-head|![luajit-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FLua%2Fluajit-head-version.json)|![luajit-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FLua%2Fluajit-head.json)|
 |Nim|nim-head|![nim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FNim%2Fnim-head-version.json)|![nim-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-head.json)|
 |OCaml|ocaml-head|![ocaml-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FOCaml%2Focaml-head-version.json)|![ocaml-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOCaml%2Focaml-head.json)|
-|OpenSSL|openssl-head|![openssl-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FOpenSSL%2Fopenssl-head-version.json)|![openssl-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-head.json)|
 |Pascal|fpc-head|![fpc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FPascal%2Ffpc-head-version.json)|![fpc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPascal%2Ffpc-head.json)|
 |Perl|perl-head|![perl-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FPerl%2Fperl-head-version.json)|![perl-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-head.json)|
 |PHP|php-head|![php-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FPHP%2Fphp-head-version.json)|![php-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-head.json)|
@@ -531,7 +530,6 @@
 
 |version|status|
 |:------|:-----|
-|openssl-head|![openssl-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-head.json)|
 |openssl-1.1.0f|![openssl-1.1.0f](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-1.1.0f.json)|
 |openssl-1.1.0e|![openssl-1.1.0e](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-1.1.0e.json)|
 |openssl-1.0.2l|![openssl-1.0.2l](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FOpenSSL%2Fopenssl-1.0.2l.json)|
