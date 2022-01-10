@@ -1,6 +1,2 @@
-scala-2.13.x
-scala-2.12.x
-scala-2.11.x
-scala-2.12.2
-scala-2.12.1
-scala-2.11.8
+scala-2.13.5
+scala-2.12.13
