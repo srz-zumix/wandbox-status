@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "label": "C++: zapcc-1.0.1",
+  "label": "C++: clang-10.0.1",
   "message": "failed",
   "color": "red"
 }

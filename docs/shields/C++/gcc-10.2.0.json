@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "label": "C++: clang-3.7.1",
+  "label": "C++: gcc-10.2.0",
   "message": "succeeded",
   "color": "green"
 }
