@@ -1,5 +1,2 @@
-groovy-3.0.7
+groovy-3.0.8
 groovy-2.5.14
-groovy-2.4.21
-groovy-2.4.11
-groovy-2.4.8
