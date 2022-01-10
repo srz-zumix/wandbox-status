@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "label": "C: gcc-5.1.0-c",
+  "label": "C: clang-7.1.0-c",
   "message": "succeeded",
   "color": "green"
 }
