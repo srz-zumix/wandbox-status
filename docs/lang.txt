@@ -2,14 +2,11 @@ Bash script
 C
 C#
 C++
-CMake
-CoffeeScript
 CPP
 Crystal
 D
 Elixir
 Erlang
-F#
 Go
 Groovy
 Haskell
@@ -28,7 +25,6 @@ PHP
 Pony
 Python
 R
-Rill
 Ruby
 Rust
 Scala
