@@ -1,6 +1,0 @@
-coffeescript-head
-coffeescript-1.12.7
-coffeescript-1.12.6
-coffeescript-1.12.3
-coffeescript-1.11.1
-coffeescript-1.10.0
