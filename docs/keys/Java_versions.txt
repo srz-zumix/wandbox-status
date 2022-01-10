@@ -1,9 +1,2 @@
-openjdk-head
-openjdk-jdk-11+28
-openjdk-jdk-10+23
-openjdk-jdk-10+13
-openjdk-jdk-9+181
-openjdk-jdk-9+175
-openjdk-jdk-9+155
-openjdk-jdk8u121-b13
-openjdk-jdk7u121-b00
+openjdk-jdk-15.0.3+2
+openjdk-jdk-14.0.2+12
