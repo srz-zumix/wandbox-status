@@ -155,7 +155,6 @@ async function getPermlink(lang, version) {
 }
 
 async function generateReport(lang, version) {
-    const permlink_path = normalizedFilePath(`permlinks/${lang}__${version}_permlink.txt`)
     let statusLines = await getStatusLine(lang, version)
     let permlink = await getPermlink(lang, version)
     return generateReportFromStatusLines(lang, version, permlink, statusLines.split("\n"))
