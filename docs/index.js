@@ -59,7 +59,8 @@ async function generateLangVersionsContainerReportFromAll(lang, container, versi
         const version = regexFilter(lines[0].trim(), versionFilter)
         if( version ) {
             count++
-            const [statusStream, normalized] = generateReportFromStatusLines(lang, version, lines.slice(1,-1))
+            let permlink = await getPermlink(lang, version)
+            const [statusStream, normalized] = generateReportFromStatusLines(lang, version, permlink, lines.slice(1,-1))
             container.appendChild(statusStream)
             for( let n=0; n < upTimes.length; ++n ) {
                 const lastSet = normalized.status[n]
