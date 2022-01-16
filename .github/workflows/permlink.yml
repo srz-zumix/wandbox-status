@@ -1,0 +1,31 @@
+name: update permlink
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  make-docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: install wandbox-api
+      run: pip install wandbox-api
+    - name: wandbox-api version
+      run: wandbox -v
+    - name: make permlink
+      run: ./docs/make-permlinks.sh
+    - name: git config
+      run: |
+        git config --local user.name ${{ github.actor }}
+        git config --local user.email ${{ github.actor }}@users.noreply.github.com
+    - name: commit
+      run: |
+        git add .
+        git commit -m "update permlinks" || true
+    - name: push
+      run: |
+        git push origin main

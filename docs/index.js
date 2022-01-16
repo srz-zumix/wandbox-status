@@ -59,7 +59,8 @@ async function generateLangVersionsContainerReportFromAll(lang, container, versi
         const version = regexFilter(lines[0].trim(), versionFilter)
         if( version ) {
             count++
-            const [statusStream, normalized] = generateReportFromStatusLines(lang, version, lines.slice(1,-1))
+            let permlink = await getPermlink(lang, version)
+            const [statusStream, normalized] = generateReportFromStatusLines(lang, version, permlink, lines.slice(1,-1))
             container.appendChild(statusStream)
             for( let n=0; n < upTimes.length; ++n ) {
                 const lastSet = normalized.status[n]
@@ -134,19 +135,35 @@ async function generateLangVersionsReport(lang, versionFilter) {
     document.getElementById("reports").appendChild(container)
 }
 
-async function generateReport(lang, version) {
+async function getStatusLine(lang, version) {
     const path = normalizedFilePath(`logs/${lang}__${version}_report.csv`)
     const f = await fetch(path)
     let statusLines = ""
     if( f.ok ) {
         statusLines = await f.text()
     }
-    return generateReportFromStatusLines(lang, version, statusLines.split("\n"))
+    return statusLines
 }
 
-function generateReportFromStatusLines(lang, version, statusLines) {
+async function getPermlink(lang, version) {
+    const path = normalizedFilePath(`permlinks/${lang}__${version}_permlink.txt`)
+    const f = await fetch(path)
+    let permlink = "https://wandbox.org"
+    if( f.ok ) {
+        permlink = await f.text()
+    }
+    return permlink
+}
+
+async function generateReport(lang, version) {
+    let statusLines = await getStatusLine(lang, version)
+    let permlink = await getPermlink(lang, version)
+    return generateReportFromStatusLines(lang, version, permlink, statusLines.split("\n"))
+}
+
+function generateReportFromStatusLines(lang, version, permlink, statusLines) {
     const normalized = normalizeStatusData(statusData(statusLines))
-    const statusStream = constructStatusStream(lang, version, normalized);
+    const statusStream = constructStatusStream(lang, version, permlink, normalized);
     return [statusStream, normalized]
   }
 
@@ -220,13 +237,14 @@ function statusData(lines) {
     return statusData
 }
 
-function constructStatusStream(lang, version, normalizedData) {
+function constructStatusStream(lang, version, permlink, normalizedData) {
     const uptimeData = normalizedData.status
     const lastSet = uptimeData[0];
     const color = getColor(lastSet);
     let streamContainer = templatize("statusVersionStreamContainerTemplate", {
         color: color,
         version: version,
+        permlink: permlink,
     });
     for (var ii = maxDays - 1; ii >= 0; ii--) {
       let line = constructStatusLine(lang, version, ii, uptimeData[ii]);
@@ -351,11 +369,11 @@ function getStatusDescriptiveText(color) {
     return color == "nodata"
       ? "No Data Available: Health check was not performed."
       : color == "success"
-      ? "No compile/runtime error recorded today."
+      ? "No compile/runtime error recorded."
       : color == "failure"
-      ? "compile/runtime error recorded today."
+      ? "compile/runtime error recorded."
       : color == "partial"
-      ? "Partial compile/runtime error recorded today."
+      ? "Partial compile/runtime error recorded."
       : "Unknown";
 }
 
