@@ -17,7 +17,9 @@ jobs:
     - name: wandbox-api version
       run: wandbox -v
     - name: make permlink
-      run: ./docs/make-permlinks.sh
+      run: |
+        ./docs/make-permlinks.sh
+        ./docs/make-permlink-all.sh
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}
