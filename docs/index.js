@@ -30,17 +30,52 @@ async function generateAllReport() {
         langs = langsText.split("\n")
     }
     langs = uniq(langs)
+    let permlinks = await getPermlinkMap()
     for(let i = 0; i < langs.length; ++i ) {
         const lang = langs[i].trim()
         if( lang ) {
-            await generateLangVersionsReport(lang, versions)
+            await generateLangVersionsReport(lang, versions, permlinks)
         }
     }
     const spinner = document.getElementById('loading')
     spinner.classList.add('loaded')
 }
 
-async function generateLangVersionsContainerReportFromAll(lang, container, versionFilter) {
+async function getPermlinkMap() {
+    const path = normalizedFilePath(`permlinks/permlinks.csv`)
+    const f = await fetch(path)
+    let permlinks = {}
+    if( f.ok ) {
+        csv = await f.text()
+        const rows = csv.split("\n")
+        for(let i = 0; i < rows.length; ++i ) {
+            const row = rows[i]
+            if( !row ) {
+                continue
+            }
+            const [lang, version, permlink] = row.split(",", 3).map(s => s.trim())
+            if( !(lang in permlinks) ) {
+                permlinks[lang] = {}
+            }
+            if( !(version in permlinks[lang]) ) {
+                permlinks[lang][version] = permlink
+            }
+        }
+    }
+    console.log(permlinks)
+    return permlinks
+}
+
+function getPermlinkFromMap(lang, version, permlinks) {
+    if( lang in permlinks ) {
+        if( version in permlinks[lang] ) {
+            return permlinks[lang][version]
+        }
+    }
+    return "https://wandbox.org"
+}
+
+async function generateLangVersionsContainerReportFromAll(lang, container, versionFilter, permlinks) {
     const path = normalizedFilePath(`logs/${lang}_versions_report.csv`)
     const f = await fetch(path)
     if( ! f.ok ) {
@@ -59,7 +94,7 @@ async function generateLangVersionsContainerReportFromAll(lang, container, versi
         const version = regexFilter(lines[0].trim(), versionFilter)
         if( version ) {
             count++
-            let permlink = await getPermlink(lang, version)
+            let permlink = getPermlinkFromMap(lang, version, permlinks)
             const [statusStream, normalized] = generateReportFromStatusLines(lang, version, permlink, lines.slice(1,-1))
             container.appendChild(statusStream)
             for( let n=0; n < upTimes.length; ++n ) {
@@ -72,7 +107,7 @@ async function generateLangVersionsContainerReportFromAll(lang, container, versi
     }
     return [upTimes, count]
 }
-async function generateLangVersionsContainerReportFromEachFile(lang, container, versionFilter) {
+async function generateLangVersionsContainerReportFromEachFile(lang, container, versionFilter, permlinks) {
     const path = normalizedFilePath(`keys/${lang}_versions.txt`)
     const f = await fetch(path)
     if( !f.ok ) {
@@ -90,7 +125,8 @@ async function generateLangVersionsContainerReportFromEachFile(lang, container, 
         const version = regexFilter(versions[i].trim(), versionFilter)
         if( version ) {
             count++
-            const [statusStream, normalized] = await generateReport(lang, version)
+            let permlink = getPermlinkFromMap(lang, version, permlinks)
+            const [statusStream, normalized] = await generateReport(lang, version, permlink)
             container.appendChild(statusStream)
             for( let n=0; n < upTimes.length; ++n ) {
                 const lastSet = normalized.status[n]
@@ -102,20 +138,20 @@ async function generateLangVersionsContainerReportFromEachFile(lang, container, 
     }
     return [upTimes, count]
 }
-async function generateLangVersionsContainerReport(lang, container, versionFilter) {
-    const [upTimes, count] = await generateLangVersionsContainerReportFromAll(lang, container, versionFilter)
+async function generateLangVersionsContainerReport(lang, container, versionFilter, permlinks) {
+    const [upTimes, count] = await generateLangVersionsContainerReportFromAll(lang, container, versionFilter, permlinks)
     if( upTimes ) {
         return [upTimes, count]
     }
-    return await generateLangVersionsContainerReportFromEachFile(lang, container, versionFilter)
+    return await generateLangVersionsContainerReportFromEachFile(lang, container, versionFilter, permlinks)
 }
 
-async function generateLangVersionsReport(lang, versionFilter) {
+async function generateLangVersionsReport(lang, versionFilter, permlinks) {
     const versionsContainer = templatize("statusLangVersionContainerTemplate", {
         title: lang,
     });
 
-    const [upTimes, count] = await generateLangVersionsContainerReport(lang, versionsContainer, versionFilter)
+    const [upTimes, count] = await generateLangVersionsContainerReport(lang, versionsContainer, versionFilter, permlinks)
     if( versionFilter && versionFilter.length > 0 && count == 0) {
         return
     }
@@ -155,9 +191,8 @@ async function getPermlink(lang, version) {
     return permlink
 }
 
-async function generateReport(lang, version) {
+async function generateReport(lang, version, permlink) {
     let statusLines = await getStatusLine(lang, version)
-    let permlink = await getPermlink(lang, version)
     return generateReportFromStatusLines(lang, version, permlink, statusLines.split("\n"))
 }
 
