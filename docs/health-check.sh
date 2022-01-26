@@ -42,7 +42,8 @@ function run_wandbox {
     if [ -f "${SELF_DIR}/../templates/$1/template.txt" ]; then
         wandbox -l "$1" -c "$2" run "${SELF_DIR}/../templates/$1/template.txt"
     else
-        wandbox -l "$1" -c "$2" run-template
+        # wandbox -l "$1" -c "$2" run-template
+        wandbox-status -V -l "$1" -c "$2"
     fi
 }
 function status_test {
