@@ -1,3 +1,4 @@
+cpython-3.10.2
 cpython-3.9.3
 cpython-3.8.9
 cpython-3.7.10
