@@ -300,6 +300,7 @@
 
 |version|status|
 |:------|:-----|
+|cpython-3.10.2|![cpython-3.10.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.10.2.json)|
 |cpython-3.9.3|![cpython-3.9.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.9.3.json)|
 |cpython-3.8.9|![cpython-3.8.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.8.9.json)|
 |cpython-3.7.10|![cpython-3.7.10](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.7.10.json)|
