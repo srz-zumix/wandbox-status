@@ -1,2 +1,2 @@
-typescript-4.2.4 nodejs 14.16.1
-typescript-3.9.9 nodejs 14.16.1
+typescript-4.2.4
+typescript-3.9.9
