@@ -61,6 +61,7 @@ Haskell, ghc-8.10.4, https://wandbox.org/permlink/ygav10PmhXI22gyF
 Haskell, ghc-8.8.4, https://wandbox.org/permlink/bM9ZTmeIZe9FTVTD
 Java, openjdk-jdk-15.0.3+2, https://wandbox.org/permlink/RCcKDwYiaStN8jZa
 Java, openjdk-jdk-14.0.2+12, https://wandbox.org/permlink/t3hGfmjmomeTVJNE
+JavaScript, nodejs-16.14.0, https://wandbox.org/permlink/K85JjEiO3hmJ0bFt
 JavaScript, nodejs-14.16.1, https://wandbox.org/permlink/UqyJhdmqWwTEz5bj
 JavaScript, nodejs-12.22.1, https://wandbox.org/permlink/jkBjfoExVmn7KYhi
 JavaScript, nodejs-10.24.1, https://wandbox.org/permlink/GIp5kEiyX3DmSm2B
@@ -123,7 +124,7 @@ Scala, scala-2.13.5, https://wandbox.org/permlink/LSQgsd71ToHdd6tb
 Scala, scala-2.12.13, https://wandbox.org/permlink/BcDRLBwL3Zdnlune
 SQL, sqlite-3.35.5, https://wandbox.org/permlink/8G6g7jR6adbOHjtU
 Swift, swift-5.3.3, https://wandbox.org/permlink/4sHcRnVu1AcjM1MY
-TypeScript, typescript-4.2.4 nodejs 14.16.1, https://wandbox.org/permlink/mMOcxccfMNcZ5fAC
-TypeScript, typescript-3.9.9 nodejs 14.16.1, https://wandbox.org/permlink/i5n9JrWRkWBqqAPK
+TypeScript, typescript-4.2.4, https://wandbox.org/permlink/fQOWJEgUzlmCOSUP
+TypeScript, typescript-3.9.9, https://wandbox.org/permlink/Kkh0HONaDHKVI5AD
 Vim script, vim-8.2.2811, https://wandbox.org/permlink/L9jZkVFaLaMFbQkl
 Vim script, vim-8.1.2424, https://wandbox.org/permlink/S5E6euOwIm6ifgia
