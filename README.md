@@ -201,6 +201,7 @@
 
 |version|status|
 |:------|:-----|
+|nodejs-16.14.0|![nodejs-16.14.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fnodejs-16.14.0.json)|
 |nodejs-14.16.1|![nodejs-14.16.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fnodejs-14.16.1.json)|
 |nodejs-12.22.1|![nodejs-12.22.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fnodejs-12.22.1.json)|
 |nodejs-10.24.1|![nodejs-10.24.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FJavaScript%2Fnodejs-10.24.1.json)|
@@ -358,8 +359,8 @@
 
 |version|status|
 |:------|:-----|
-|typescript-4.2.4 nodejs 14.16.1|![typescript-4.2.4 nodejs 14.16.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-4.2.4%2520nodejs%252014.16.1.json)|
-|typescript-3.9.9 nodejs 14.16.1|![typescript-3.9.9 nodejs 14.16.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.9.9%2520nodejs%252014.16.1.json)|
+|typescript-4.2.4|![typescript-4.2.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-4.2.4.json)|
+|typescript-3.9.9|![typescript-3.9.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FTypeScript%2Ftypescript-3.9.9.json)|
 
 ### Vim script
 
