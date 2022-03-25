@@ -9,6 +9,7 @@ C, gcc-6.5.0-c, https://wandbox.org/permlink/rOywmC4ntsp6xTHq
 C, gcc-5.5.0-c, https://wandbox.org/permlink/8wdGLeyngIlcOO9i
 C, gcc-4.9.4-c, https://wandbox.org/permlink/Ehi1NWxn6RIpHSeP
 C, clang-head-c, https://wandbox.org/permlink/37AY0ca7h9jXyGr9
+C, clang-14.0.0-c, https://wandbox.org/permlink/PeKdkW5F0yPVhZTv
 C, clang-13.0.0-c, https://wandbox.org/permlink/WhKlZBPQAnK45e3z
 C, clang-12.0.1-c, https://wandbox.org/permlink/BNgGRQJJfLcIP4EL
 C, clang-11.1.0-c, https://wandbox.org/permlink/32SBGOajnTc21zzN
@@ -31,6 +32,7 @@ C++, gcc-6.5.0, https://wandbox.org/permlink/OFcwNalpn2UqnoNu
 C++, gcc-5.5.0, https://wandbox.org/permlink/DT63WeaIlvjFz2rv
 C++, gcc-4.9.4, https://wandbox.org/permlink/3zHMxjrJiXnDVIxy
 C++, clang-head, https://wandbox.org/permlink/RtyUzzOfuSvXA42R
+C++, clang-14.0.0, https://wandbox.org/permlink/a3AbefCanLLxS2Gk
 C++, clang-13.0.0, https://wandbox.org/permlink/jJdYqMQz1jnqi9y2
 C++, clang-12.0.1, https://wandbox.org/permlink/ENAWtUlZK48h8IO1
 C++, clang-11.1.0, https://wandbox.org/permlink/6tEdaUXslKJ8BNSZ
