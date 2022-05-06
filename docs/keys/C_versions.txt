@@ -1,4 +1,5 @@
 gcc-head-c
+gcc-12.1.0-c
 gcc-11.1.0-c
 gcc-10.2.0-c
 gcc-9.3.0-c
