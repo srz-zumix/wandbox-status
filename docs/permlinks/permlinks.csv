@@ -1,5 +1,6 @@
 Bash script, bash, https://wandbox.org/permlink/Ly04L0d6SeKDCkM0
 C, gcc-head-c, https://wandbox.org/permlink/23XAYVIyGlqUpwLe
+C, gcc-12.1.0-c, https://wandbox.org/permlink/oMsh7IxUhhpjmjxZ
 C, gcc-11.1.0-c, https://wandbox.org/permlink/5CVLlY7CP7SiEyM7
 C, gcc-10.2.0-c, https://wandbox.org/permlink/43zu6yJ5hsJBxLGW
 C, gcc-9.3.0-c, https://wandbox.org/permlink/Ij0sJ1e77cGp3e3X
@@ -23,6 +24,7 @@ C#, dotnetcore-5.0.201, https://wandbox.org/permlink/nPM6IjO8YtPpG6G8
 C#, dotnetcore-3.1.407, https://wandbox.org/permlink/uz3r5SqgWKsJaJ4Z
 C#, dotnetcore-2.1.814, https://wandbox.org/permlink/MahRQbt7X2OedGxs
 C++, gcc-head, https://wandbox.org/permlink/KqLH7hmViXa940c8
+C++, gcc-12.1.0, https://wandbox.org/permlink/trvCnrkUQhpsrIjX
 C++, gcc-11.1.0, https://wandbox.org/permlink/CYmbOmkzJ1NcW0PV
 C++, gcc-10.2.0, https://wandbox.org/permlink/BNlkvLNQZ32EnMLd
 C++, gcc-9.3.0, https://wandbox.org/permlink/yoIt3BI9GMLJWksZ
@@ -80,6 +82,7 @@ Lua, lua-5.2.4, https://wandbox.org/permlink/f7EHl37spUE5n4N4
 Lua, luajit-2.0.5, https://wandbox.org/permlink/4gOQnZw84qFDApz0
 Lua, luajit-2.0.4, https://wandbox.org/permlink/ZzEnRExJLk9w8Jci
 Lua, luajit-2.0.3, https://wandbox.org/permlink/iYCbBT0yMYXKygmB
+Nim, nim-1.6.6, https://wandbox.org/permlink/WEQMjQ6hIrVFPrbx
 Nim, nim-1.6.4, https://wandbox.org/permlink/Opw2X9YdtyrfkJny
 Nim, nim-1.6.0, https://wandbox.org/permlink/WrqSVzG5iP3gHmVZ
 Nim, nim-1.4.8, https://wandbox.org/permlink/DAa3pBenzYbmdXc1
