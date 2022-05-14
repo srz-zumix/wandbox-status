@@ -245,6 +245,7 @@
 2022-05-12 12:17, succeeded
 2022-05-13 00:47, succeeded
 2022-05-13 12:19, succeeded
+2022-05-14 00:46, succeeded
 --- ocaml-4.11.2
 2022-01-10 12:11, failed
 2022-01-11 00:27, failed
@@ -492,6 +493,7 @@
 2022-05-12 12:17, succeeded
 2022-05-13 00:47, succeeded
 2022-05-13 12:19, succeeded
+2022-05-14 00:46, succeeded
 --- ocaml-4.10.2
 2022-01-10 12:11, failed
 2022-01-11 00:27, failed
@@ -739,3 +741,4 @@
 2022-05-12 12:17, succeeded
 2022-05-13 00:47, succeeded
 2022-05-13 12:19, succeeded
+2022-05-14 00:46, succeeded
