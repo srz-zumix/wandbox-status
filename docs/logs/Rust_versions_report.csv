@@ -299,6 +299,7 @@
 2022-06-08 22:00, succeeded
 2022-06-09 10:00, succeeded
 2022-06-09 22:00, succeeded
+2022-06-10 10:00, succeeded
 --- rust-1.50.0
 2022-01-10 10:00, succeeded
 2022-01-10 22:00, succeeded
@@ -600,3 +601,4 @@
 2022-06-08 22:00, succeeded
 2022-06-09 10:00, succeeded
 2022-06-09 22:00, succeeded
+2022-06-10 10:00, succeeded
