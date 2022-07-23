@@ -32,3 +32,4 @@ SQL
 Swift
 TypeScript
 Vim script
+Zig
