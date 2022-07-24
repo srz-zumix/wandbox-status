@@ -1,4 +1,4 @@
-name: Readme
+name: Update cron workflows
 on:
   pull_request:
   schedule:
@@ -13,12 +13,9 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: 3.9
-    - name: install amaterasu
-      run: pip install -r requirements.txt
-    - name: amaterasu version
-      run: amaterasu -v
-    - name: make readme
-      run: amaterasu README.md.j2 > README.md
+    - name: make workflows
+      run: |
+        ./.github/workflows-template/make.sh
     - name: git config
       run: |
         git config --local user.name ${{ github.actor }}
@@ -26,7 +23,7 @@ jobs:
     - name: commit
       run: |
         git add .
-        git commit -m "update README" || true
+        git commit -m "update cron workflows" || true
     - name: push
       if: github.event_name == 'cron'
       run: |
