@@ -19,8 +19,8 @@ HOUR=0
 MIN=0
 
 while IFS= read -r -a line ; do {
-    LANG=${line}
-    echo ${LANG}
+    LANG="${line}"
+    echo "${LANG}"
     TARGET_FILE="${SELF_DIR}/../workflows/${LANG}.yml"
     if "${FORCE_UPDATE}"; then
         if [ -f "${TARGET_FILE}" ]; then
@@ -42,5 +42,6 @@ while IFS= read -r -a line ; do {
     fi
     sed -e "s/TEMPLATE_LANGUAGE/${LANG}/g" -e "s/TEMPLATE_HOUR/${HOURS}/g" -e "s/TEMPLATE_MIN/${MINS}/g" "${SELF_DIR}/docs-template.yml" > "${TARGET_FILE}"
 };
+# shellcheck disable=SC2086
 done < <(wandbox ${WANDBOX_OPTIONS} -V lang)
 unset line;
