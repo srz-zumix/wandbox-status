@@ -18,7 +18,7 @@ done
 HOUR=0
 MIN=0
 
-while IFS= read -a line ; do {
+while IFS= read -r -a line ; do {
     LANG=${line}
     echo ${LANG}
     TARGET_FILE="${SELF_DIR}/../workflows/${LANG}.yml"
