@@ -27,8 +27,8 @@ while IFS= read -r -a line ; do {
             rm "${TARGET_FILE}"
         fi
     fi
-    HOUR=$(echo "($HOUR + 1) % 12" | bc)
-    HOUR2=$(echo "($HOUR + 12) % 24" | bc)
+    HOUR=$(echo "(${HOUR} + 1) % 12" | bc)
+    HOUR2=$(echo "(${HOUR} + 12) % 24" | bc)
     HOURS="${HOUR},${HOUR2}"
     if [ -f "${TARGET_FILE}" ]; then
         MIN_HOUR=$(grep -o "cron:.*" < "${TARGET_FILE}" | head -1 | grep -oE "[0-9,-]+\s[0-9,-]+")
@@ -37,7 +37,7 @@ while IFS= read -r -a line ; do {
         HOURS="${MIN_HOUR#* }"
         # HOUR="${HOURS%,*}"
     else
-        MIN=$(echo "($MIN + 18) % 60" | bc)
+        MIN=$(echo "(${MIN} + 18) % 60" | bc)
         MINS="${MIN}"
     fi
     sed -e "s/TEMPLATE_LANGUAGE/${LANG}/g" -e "s/TEMPLATE_HOUR/${HOURS}/g" -e "s/TEMPLATE_MIN/${MINS}/g" "${SELF_DIR}/docs-template.yml" > "${TARGET_FILE}"
