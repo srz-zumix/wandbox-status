@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-SELF_DIR=$(cd $(dirname $0); pwd)
-WANDBOX_OPTIONS=
+SELF_DIR=$(dirname "$0")
+WANDBOX_OPTIONS=${WANDBOX_OPTIONS:-}
 FORCE_UPDATE=false
 
 while getopts fh OPT
@@ -18,8 +18,9 @@ done
 HOUR=0
 MIN=0
 
+# shellcheck disable=SC2086
 while IFS= read -r -a line ; do {
-    LANG="${line}"
+    LANG=${line[0]}
     echo "${LANG}"
     TARGET_FILE="${SELF_DIR}/../workflows/${LANG}.yml"
     if "${FORCE_UPDATE}"; then
@@ -42,6 +43,5 @@ while IFS= read -r -a line ; do {
     fi
     sed -e "s/TEMPLATE_LANGUAGE/${LANG}/g" -e "s/TEMPLATE_HOUR/${HOURS}/g" -e "s/TEMPLATE_MIN/${MINS}/g" "${SELF_DIR}/docs-template.yml" > "${TARGET_FILE}"
 };
-# shellcheck disable=SC2086
-done < <(wandbox ${WANDBOX_OPTIONS} -V lang)
+ done < <(wandbox ${WANDBOX_OPTIONS} -V lang)
 unset line;
