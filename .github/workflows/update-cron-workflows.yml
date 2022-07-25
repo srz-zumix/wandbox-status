@@ -2,7 +2,7 @@ name: Update cron workflows
 on:
   pull_request:
   schedule:
-    - cron: '3 0 * * *'
+    - cron: '0 4 * * *'
 
 jobs:
   update-cron-workflows:
