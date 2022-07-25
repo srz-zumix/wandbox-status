@@ -1,5 +1,6 @@
 name: head-version
 on:
+  pull_request:
   schedule:
     - cron: '0 0 * * *'
 
@@ -30,5 +31,6 @@ jobs:
         git add .
         git commit -m "update Head-version" || true
     - name: push
+      if: github.event_name == 'schedule'
       run: |
         git push origin main

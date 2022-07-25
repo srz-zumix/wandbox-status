@@ -28,6 +28,6 @@ jobs:
         git add .
         git commit -m "update README" || true
     - name: push
-      if: github.event_name == 'cron'
+      if: github.event_name == 'schedule'
       run: |
         git push origin main
