@@ -2,7 +2,7 @@ name: Update cron workflows
 on:
   pull_request:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 12 * * *'
 
 jobs:
   update-cron-workflows:
@@ -29,6 +29,6 @@ jobs:
         git add .
         git commit -m "update cron workflows" || true
     - name: push
-      if: github.event_name == 'cron'
+      if: github.event_name == 'schedule'
       run: |
         git push origin main
