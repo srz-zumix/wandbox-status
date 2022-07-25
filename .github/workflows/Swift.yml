@@ -20,7 +20,7 @@ jobs:
       run: wandbox -v
     - name: clean
       run: |
-        rm -rf ./docs/shields/${LANGUAGE}
+        rm -rf "./docs/shields/${LANGUAGE}"
     - name: make docs
       run: |
         ./docs/health-check.sh -l "${LANGUAGE}"
