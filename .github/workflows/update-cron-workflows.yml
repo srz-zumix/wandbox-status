@@ -2,10 +2,10 @@ name: Update cron workflows
 on:
   pull_request:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '3 0 * * *'
 
 jobs:
-  make-docs:
+  update-cron-workflows:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -13,6 +13,10 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: 3.9
+    - name: install wandbox-api
+      run: pip install wandbox-api
+    - name: wandbox-api version
+      run: wandbox -v
     - name: make workflows
       run: |
         ./.github/workflows-template/make.sh
