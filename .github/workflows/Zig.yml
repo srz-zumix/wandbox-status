@@ -1,13 +1,13 @@
-name: Scala
+name: Zig
 on:
   schedule:
-    - cron: '12 10,22 * * *'
+    - cron: '18 11,23 * * *'
 
 jobs:
   make-docs:
     runs-on: ubuntu-latest
     env:
-      LANGUAGE: "Scala"
+      LANGUAGE: "Zig"
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.9

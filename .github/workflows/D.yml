@@ -9,9 +9,9 @@ jobs:
     env:
       LANGUAGE: "D"
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v3
     - name: Set up Python 3.9
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.9
     - name: install wandbox-api
