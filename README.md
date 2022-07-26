@@ -54,6 +54,7 @@
 * [Swift](#Swift)
 * [TypeScript](#TypeScript)
 * [Vim script](#Vim-script)
+* [Zig](#Zig)
 
 ### Head
 
@@ -68,6 +69,7 @@
 |C++|clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2B%2B%2Fclang-head-version.json)|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-head.json)|
 |CPP|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FCPP%2Fgcc-head-pp-version.json)|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
 |CPP|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FCPP%2Fclang-head-pp-version.json)|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
+|Zig|zig-head|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FZig%2Fzig-head-version.json)|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-head.json)|
 
 ### Bash script
 
@@ -80,6 +82,7 @@
 |version|status|
 |:------|:-----|
 |gcc-head-c|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-head-c.json)|
+|gcc-12.1.0-c|![gcc-12.1.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-12.1.0-c.json)|
 |gcc-11.1.0-c|![gcc-11.1.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-11.1.0-c.json)|
 |gcc-10.2.0-c|![gcc-10.2.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-10.2.0-c.json)|
 |gcc-9.3.0-c|![gcc-9.3.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-9.3.0-c.json)|
@@ -89,6 +92,7 @@
 |gcc-5.5.0-c|![gcc-5.5.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-5.5.0-c.json)|
 |gcc-4.9.4-c|![gcc-4.9.4-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-4.9.4-c.json)|
 |clang-head-c|![clang-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-head-c.json)|
+|clang-14.0.0-c|![clang-14.0.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-14.0.0-c.json)|
 |clang-13.0.0-c|![clang-13.0.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-13.0.0-c.json)|
 |clang-12.0.1-c|![clang-12.0.1-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-12.0.1-c.json)|
 |clang-11.1.0-c|![clang-11.1.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-11.1.0-c.json)|
@@ -112,6 +116,7 @@
 |version|status|
 |:------|:-----|
 |gcc-head|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-head.json)|
+|gcc-12.1.0|![gcc-12.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-12.1.0.json)|
 |gcc-11.1.0|![gcc-11.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-11.1.0.json)|
 |gcc-10.2.0|![gcc-10.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-10.2.0.json)|
 |gcc-9.3.0|![gcc-9.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-9.3.0.json)|
@@ -121,6 +126,7 @@
 |gcc-5.5.0|![gcc-5.5.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-5.5.0.json)|
 |gcc-4.9.4|![gcc-4.9.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-4.9.4.json)|
 |clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-head.json)|
+|clang-14.0.0|![clang-14.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-14.0.0.json)|
 |clang-13.0.0|![clang-13.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-13.0.0.json)|
 |clang-12.0.1|![clang-12.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-12.0.1.json)|
 |clang-11.1.0|![clang-11.1.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-11.1.0.json)|
@@ -243,6 +249,7 @@
 
 |version|status|
 |:------|:-----|
+|nim-1.6.6|![nim-1.6.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.6.6.json)|
 |nim-1.6.4|![nim-1.6.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.6.4.json)|
 |nim-1.6.0|![nim-1.6.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.6.0.json)|
 |nim-1.4.8|![nim-1.4.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-1.4.8.json)|
@@ -368,6 +375,13 @@
 |:------|:-----|
 |vim-8.2.2811|![vim-8.2.2811](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.2.2811.json)|
 |vim-8.1.2424|![vim-8.1.2424](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.1.2424.json)|
+
+### Zig
+
+|version|status|
+|:------|:-----|
+|zig-head|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-head.json)|
+|zig-0.9.1|![zig-0.9.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-0.9.1.json)|
 
 [Wandbox]:https://wandbox.org/
 [wandbox-news]:https://github.com/srz-zumix/wandbox-news
