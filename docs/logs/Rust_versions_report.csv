@@ -404,6 +404,7 @@
 2022-07-31 10:00, succeeded
 2022-07-31 22:00, succeeded
 2022-08-01 10:00, succeeded
+2022-08-01 22:00, failed
 --- rust-1.50.0
 2022-01-10 10:00, succeeded
 2022-01-10 22:00, succeeded
@@ -810,3 +811,4 @@
 2022-07-31 10:00, succeeded
 2022-07-31 22:00, succeeded
 2022-08-01 10:00, succeeded
+2022-08-01 22:00, succeeded
