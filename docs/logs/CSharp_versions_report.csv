@@ -399,6 +399,7 @@
 2022-07-30 15:56, succeeded
 2022-07-31 04:21, succeeded
 2022-07-31 15:56, succeeded
+2022-08-01 05:02, succeeded
 --- mono-5.20.1.34
 2022-01-10 15:56, succeeded
 2022-01-11 03:56, succeeded
@@ -800,6 +801,7 @@
 2022-07-30 15:56, succeeded
 2022-07-31 04:21, succeeded
 2022-07-31 15:56, succeeded
+2022-08-01 05:02, succeeded
 --- dotnetcore-5.0.201
 2022-01-10 15:56, succeeded
 2022-01-11 03:56, succeeded
@@ -1201,6 +1203,7 @@
 2022-07-30 15:56, succeeded
 2022-07-31 04:21, succeeded
 2022-07-31 15:56, succeeded
+2022-08-01 05:02, succeeded
 --- dotnetcore-3.1.407
 2022-01-10 15:56, succeeded
 2022-01-11 03:56, succeeded
@@ -1602,6 +1605,7 @@
 2022-07-30 15:56, succeeded
 2022-07-31 04:21, succeeded
 2022-07-31 15:56, succeeded
+2022-08-01 05:02, succeeded
 --- dotnetcore-2.1.814
 2022-01-10 15:56, failed
 2022-01-11 03:56, failed
@@ -2003,3 +2007,4 @@
 2022-07-30 15:56, failed
 2022-07-31 04:21, failed
 2022-07-31 15:56, failed
+2022-08-01 05:02, failed
