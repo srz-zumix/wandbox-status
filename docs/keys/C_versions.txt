@@ -9,6 +9,7 @@ gcc-6.5.0-c
 gcc-5.5.0-c
 gcc-4.9.4-c
 clang-head-c
+clang-15.0.0-c
 clang-14.0.0-c
 clang-13.0.0-c
 clang-12.0.1-c
