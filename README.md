@@ -289,6 +289,7 @@
 
 |version|status|
 |:------|:-----|
+|perl-5.36.0|![perl-5.36.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.36.0.json)|
 |perl-5.34.0|![perl-5.34.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.34.0.json)|
 |perl-5.33.8|![perl-5.33.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.33.8.json)|
 |perl-5.32.1|![perl-5.32.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.32.1.json)|
@@ -298,7 +299,9 @@
 
 |version|status|
 |:------|:-----|
-|php-8.0.3|![php-8.0.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.0.3.json)|
+|php-8.2.1|![php-8.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.2.1.json)|
+|php-8.1.14|![php-8.1.14](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.1.14.json)|
+|php-8.0.27|![php-8.0.27](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.0.27.json)|
 |php-7.4.16|![php-7.4.16](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.4.16.json)|
 |php-5.6.40|![php-5.6.40](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.6.40.json)|
 
