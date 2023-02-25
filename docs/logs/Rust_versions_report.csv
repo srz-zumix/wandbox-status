@@ -818,6 +818,7 @@
 2023-02-23 22:00, succeeded
 2023-02-24 10:00, succeeded
 2023-02-24 22:00, succeeded
+2023-02-25 10:00, succeeded
 --- rust-1.50.0
 2022-01-10 10:00, succeeded
 2022-01-10 22:00, succeeded
@@ -1638,3 +1639,4 @@
 2023-02-23 22:00, succeeded
 2023-02-24 10:00, succeeded
 2023-02-24 22:00, succeeded
+2023-02-25 10:00, succeeded
