@@ -9,6 +9,7 @@ C, gcc-7.5.0-c, https://wandbox.org/permlink/ZIyqTKTb1YFHpVcE
 C, gcc-6.5.0-c, https://wandbox.org/permlink/rOywmC4ntsp6xTHq
 C, gcc-5.5.0-c, https://wandbox.org/permlink/8wdGLeyngIlcOO9i
 C, gcc-4.9.4-c, https://wandbox.org/permlink/Ehi1NWxn6RIpHSeP
+C, clang-head-c, https://wandbox.org/permlink/37AY0ca7h9jXyGr9
 C, clang-16.0.1-c, https://wandbox.org/permlink/RDTesxCf5529Gqq4
 C, clang-15.0.7-c, https://wandbox.org/permlink/tnZqjSDxciyAu9xr
 C, clang-14.0.6-c, https://wandbox.org/permlink/890HyEBJtpNVWXgj
@@ -34,6 +35,7 @@ C++, gcc-7.5.0, https://wandbox.org/permlink/QyLHguL4Ihe5Nbj4
 C++, gcc-6.5.0, https://wandbox.org/permlink/OFcwNalpn2UqnoNu
 C++, gcc-5.5.0, https://wandbox.org/permlink/DT63WeaIlvjFz2rv
 C++, gcc-4.9.4, https://wandbox.org/permlink/3zHMxjrJiXnDVIxy
+C++, clang-head, https://wandbox.org/permlink/RtyUzzOfuSvXA42R
 C++, clang-16.0.1, https://wandbox.org/permlink/LjApkazjYWAJJSTB
 C++, clang-15.0.7, https://wandbox.org/permlink/i4b7RSJZnN8p3k8T
 C++, clang-14.0.6, https://wandbox.org/permlink/QQzyEGWChsq8tkFG
@@ -45,6 +47,7 @@ C++, clang-9.0.1, https://wandbox.org/permlink/U2jYpdGPuOGdE1DP
 C++, clang-8.0.1, https://wandbox.org/permlink/h17aYfVfkoaZWWHT
 C++, clang-7.1.0, https://wandbox.org/permlink/YUtaj2ttegIT9kiv
 CPP, gcc-head-pp, https://wandbox.org/permlink/S6uifVaXxQa0xIiX
+CPP, clang-head-pp, https://wandbox.org/permlink/7miPfETEKnGQg521
 Crystal, crystal-1.0.0, https://wandbox.org/permlink/C4z1rcTXmT35R4zh
 Crystal, crystal-0.36.1, https://wandbox.org/permlink/rsiWujwlunzGGvtB
 D, dmd-2.096.0, https://wandbox.org/permlink/rd9ipLl4F8pXnEVE
