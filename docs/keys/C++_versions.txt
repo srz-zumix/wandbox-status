@@ -1,7 +1,8 @@
 gcc-head
-gcc-12.2.0
-gcc-11.1.0
-gcc-10.2.0
+gcc-13.2.0
+gcc-12.3.0
+gcc-11.4.0
+gcc-10.5.0
 gcc-9.3.0
 gcc-8.4.0
 gcc-7.5.0
@@ -9,7 +10,8 @@ gcc-6.5.0
 gcc-5.5.0
 gcc-4.9.4
 clang-head
-clang-16.0.1
+clang-17.0.1
+clang-16.0.4
 clang-15.0.7
 clang-14.0.6
 clang-13.0.1
