@@ -1,8 +1,16 @@
+cpython-3.12.1
+cpython-3.11.6
+cpython-3.10.13
 cpython-3.10.2
 cpython-3.9.3
 cpython-3.8.9
 cpython-3.7.10
 cpython-3.6.12
 cpython-2.7.18
+pypy-3.10-v7.3.15
+pypy-3.9-v7.3.15
+pypy-3.8-v7.3.11
+pypy-3.7-v7.3.9
 pypy-3.7-v7.3.4
+pypy-2.7-v7.3.15
 pypy-2.7-v7.3.4
