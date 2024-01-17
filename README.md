@@ -328,13 +328,21 @@
 
 |version|status|
 |:------|:-----|
+|cpython-3.12.1|![cpython-3.12.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.12.1.json)|
+|cpython-3.11.6|![cpython-3.11.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.11.6.json)|
+|cpython-3.10.13|![cpython-3.10.13](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.10.13.json)|
 |cpython-3.10.2|![cpython-3.10.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.10.2.json)|
 |cpython-3.9.3|![cpython-3.9.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.9.3.json)|
 |cpython-3.8.9|![cpython-3.8.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.8.9.json)|
 |cpython-3.7.10|![cpython-3.7.10](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.7.10.json)|
 |cpython-3.6.12|![cpython-3.6.12](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.6.12.json)|
 |cpython-2.7.18|![cpython-2.7.18](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-2.7.18.json)|
+|pypy-3.10-v7.3.15|![pypy-3.10-v7.3.15](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.10-v7.3.15.json)|
+|pypy-3.9-v7.3.15|![pypy-3.9-v7.3.15](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.9-v7.3.15.json)|
+|pypy-3.8-v7.3.11|![pypy-3.8-v7.3.11](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.8-v7.3.11.json)|
+|pypy-3.7-v7.3.9|![pypy-3.7-v7.3.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.7-v7.3.9.json)|
 |pypy-3.7-v7.3.4|![pypy-3.7-v7.3.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.7-v7.3.4.json)|
+|pypy-2.7-v7.3.15|![pypy-2.7-v7.3.15](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-2.7-v7.3.15.json)|
 |pypy-2.7-v7.3.4|![pypy-2.7-v7.3.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-2.7-v7.3.4.json)|
 
 ### R
