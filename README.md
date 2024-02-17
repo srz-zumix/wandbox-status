@@ -311,10 +311,11 @@
 
 |version|status|
 |:------|:-----|
-|php-8.2.1|![php-8.2.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.2.1.json)|
-|php-8.1.14|![php-8.1.14](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.1.14.json)|
-|php-8.0.27|![php-8.0.27](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.0.27.json)|
-|php-7.4.16|![php-7.4.16](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.4.16.json)|
+|php-8.3.3|![php-8.3.3](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.3.3.json)|
+|php-8.2.16|![php-8.2.16](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.2.16.json)|
+|php-8.1.27|![php-8.1.27](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.1.27.json)|
+|php-8.0.30|![php-8.0.30](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-8.0.30.json)|
+|php-7.4.33|![php-7.4.33](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-7.4.33.json)|
 |php-5.6.40|![php-5.6.40](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPHP%2Fphp-5.6.40.json)|
 
 ### Pony
