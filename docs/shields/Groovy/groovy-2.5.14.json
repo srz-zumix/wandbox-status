@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Groovy: groovy-2.5.14",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
