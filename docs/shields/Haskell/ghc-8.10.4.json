@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Haskell: ghc-8.10.4",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
