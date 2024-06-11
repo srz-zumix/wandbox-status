@@ -115,6 +115,7 @@ OpenSSL, openssl-0.9.8zh, https://wandbox.org/permlink/Dh8g6Exu2eKCO0oz
 Pascal, fpc-3.2.0, https://wandbox.org/permlink/AX2Uy6jCWV9Fzs16
 Pascal, fpc-3.0.4, https://wandbox.org/permlink/2q3J92YVfVNuYdbS
 Pascal, fpc-2.6.4, https://wandbox.org/permlink/ofCoPmn1ImjzgMlc
+Perl, perl-5.40.0, https://wandbox.org/permlink/hiDi6y9vJPYFJfgu
 Perl, perl-5.38.0, https://wandbox.org/permlink/9aKGhNI7itEv64xA
 Perl, perl-5.36.0, https://wandbox.org/permlink/vHpBnkMuGY2JOSNK
 Perl, perl-5.34.0, https://wandbox.org/permlink/0RVo6Usm7V9eqjDz
@@ -147,10 +148,10 @@ Python, pypy-2.7-v7.3.15, https://wandbox.org/permlink/OolPEd9zLUemQeBi
 Python, pypy-2.7-v7.3.4, https://wandbox.org/permlink/C57BawGuAc10sdAv
 R, r-4.0.5, https://wandbox.org/permlink/aKU6fSBUlDyu6KNi
 R, r-3.6.3, https://wandbox.org/permlink/7NC5BivtB6b0yrCI
-Ruby, ruby-3.3.0, https://wandbox.org/permlink/AbDFn5y0S4sTAZOk
-Ruby, ruby-3.2.2, https://wandbox.org/permlink/JBBeFeRjwLi4or7g
-Ruby, ruby-3.1.4, https://wandbox.org/permlink/yMovdmD5NqsEdgMX
-Ruby, ruby-3.0.6, https://wandbox.org/permlink/6rHqTvkBteTbAikB
+Ruby, ruby-3.3.1, https://wandbox.org/permlink/6oOd6LbnaNGWjBoW
+Ruby, ruby-3.2.4, https://wandbox.org/permlink/EwmoUjjzfJsH7VUn
+Ruby, ruby-3.1.5, https://wandbox.org/permlink/UwfqJT2ctwnIO03S
+Ruby, ruby-3.0.7, https://wandbox.org/permlink/K6JMUJYukQlgaBXA
 Ruby, ruby-2.7.8, https://wandbox.org/permlink/rJDf3ZQqqciAmCxW
 Ruby, mruby-3.0.0, https://wandbox.org/permlink/34NFxCkMN9hxB81U
 Ruby, mruby-2.1.2, https://wandbox.org/permlink/W1pwzTdYUI4in901
