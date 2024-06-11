@@ -302,6 +302,7 @@
 
 |version|status|
 |:------|:-----|
+|perl-5.40.0|![perl-5.40.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.40.0.json)|
 |perl-5.38.0|![perl-5.38.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.38.0.json)|
 |perl-5.36.0|![perl-5.36.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.36.0.json)|
 |perl-5.34.0|![perl-5.34.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPerl%2Fperl-5.34.0.json)|
@@ -359,10 +360,10 @@
 
 |version|status|
 |:------|:-----|
-|ruby-3.3.0|![ruby-3.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.3.0.json)|
-|ruby-3.2.2|![ruby-3.2.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.2.2.json)|
-|ruby-3.1.4|![ruby-3.1.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.1.4.json)|
-|ruby-3.0.6|![ruby-3.0.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.0.6.json)|
+|ruby-3.3.1|![ruby-3.3.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.3.1.json)|
+|ruby-3.2.4|![ruby-3.2.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.2.4.json)|
+|ruby-3.1.5|![ruby-3.1.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.1.5.json)|
+|ruby-3.0.7|![ruby-3.0.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.0.7.json)|
 |ruby-2.7.8|![ruby-2.7.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-2.7.8.json)|
 |mruby-3.0.0|![mruby-3.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-3.0.0.json)|
 |mruby-2.1.2|![mruby-2.1.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-2.1.2.json)|
