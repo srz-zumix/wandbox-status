@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Lisp: clisp-2.49",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
