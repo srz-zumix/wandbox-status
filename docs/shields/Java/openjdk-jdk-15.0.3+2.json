@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Java: openjdk-jdk-15.0.3+2",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
