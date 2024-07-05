@@ -257,6 +257,7 @@
 
 |version|status|
 |:------|:-----|
+|nim-2.0.8|![nim-2.0.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-2.0.8.json)|
 |nim-2.0.6|![nim-2.0.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-2.0.6.json)|
 |nim-2.0.4|![nim-2.0.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-2.0.4.json)|
 |nim-2.0.2|![nim-2.0.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FNim%2Fnim-2.0.2.json)|
