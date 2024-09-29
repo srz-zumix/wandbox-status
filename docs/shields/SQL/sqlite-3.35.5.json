@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "SQL: sqlite-3.35.5",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
