@@ -1,2 +1,2 @@
-openjdk-jdk-15.0.3+2
-openjdk-jdk-14.0.2+12
+openjdk-jdk-22+36
+openjdk-jdk-21+35
