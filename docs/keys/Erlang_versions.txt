@@ -1,3 +1,3 @@
-erlang-23.3.1
-erlang-22.3.4.16
-erlang-21.3.8.22
+erlang-27.1
+erlang-26.2.5.3
+erlang-25.3.2.13
