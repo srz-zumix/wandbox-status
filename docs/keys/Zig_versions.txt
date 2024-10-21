@@ -1,2 +1,3 @@
 zig-head
+zig-0.13.0
 zig-0.9.1
