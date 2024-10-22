@@ -343,8 +343,19 @@
 
 |version|status|
 |:------|:-----|
+|rust-1.82.0|![rust-1.82.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.82.0.json)|
+|rust-1.81.0|![rust-1.81.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.81.0.json)|
 |rust-1.80.1|![rust-1.80.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.80.1.json)|
 |rust-1.79.0|![rust-1.79.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.79.0.json)|
+|rust-1.78.0|![rust-1.78.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.78.0.json)|
+|rust-1.77.2|![rust-1.77.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.77.2.json)|
+|rust-1.76.0|![rust-1.76.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.76.0.json)|
+|rust-1.75.0|![rust-1.75.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.75.0.json)|
+|rust-1.74.1|![rust-1.74.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.74.1.json)|
+|rust-1.73.0|![rust-1.73.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.73.0.json)|
+|rust-1.72.1|![rust-1.72.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.72.1.json)|
+|rust-1.71.1|![rust-1.71.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.71.1.json)|
+|rust-1.70.0|![rust-1.70.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.70.0.json)|
 |rust-1.69.0|![rust-1.69.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.69.0.json)|
 |rust-1.68.2|![rust-1.68.2](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.68.2.json)|
 |rust-1.67.1|![rust-1.67.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRust%2Frust-1.67.1.json)|
