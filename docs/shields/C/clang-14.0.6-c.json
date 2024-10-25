@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "C: clang-14.0.6-c",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
