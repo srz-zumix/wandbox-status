@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "C: gcc-10.5.0-c",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
