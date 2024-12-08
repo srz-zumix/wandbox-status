@@ -2,6 +2,7 @@ Bash script
 C
 C#
 C++
+CPP
 Crystal
 D
 Elixir
@@ -31,3 +32,4 @@ SQL
 Swift
 TypeScript
 Vim script
+Zig
