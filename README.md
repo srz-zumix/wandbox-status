@@ -24,7 +24,6 @@
 * [C](#C)
 * [C#](#C-1)
 * [C++](#C-2)
-* [CPP](#CPP)
 * [Crystal](#Crystal)
 * [D](#D)
 * [Elixir](#Elixir)
@@ -54,7 +53,6 @@
 * [Swift](#Swift)
 * [TypeScript](#TypeScript)
 * [Vim script](#Vim-script)
-* [Zig](#Zig)
 
 ### Head
 
@@ -63,13 +61,6 @@
 
 |language|name|version|status|
 |:------|:------|:-----|:-----|
-|C|gcc-head-c|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2Fgcc-head-c-version.json)|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-head-c.json)|
-|C|clang-head-c|![clang-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2Fclang-head-c-version.json)|![clang-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-head-c.json)|
-|C++|gcc-head|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2B%2B%2Fgcc-head-version.json)|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-head.json)|
-|C++|clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2B%2B%2Fclang-head-version.json)|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-head.json)|
-|CPP|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FCPP%2Fgcc-head-pp-version.json)|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
-|CPP|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FCPP%2Fclang-head-pp-version.json)|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
-|Zig|zig-head|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FZig%2Fzig-head-version.json)|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-head.json)|
 
 ### Bash script
 
@@ -81,7 +72,6 @@
 
 |version|status|
 |:------|:-----|
-|gcc-head-c|![gcc-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-head-c.json)|
 |gcc-13.2.0-c|![gcc-13.2.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-13.2.0-c.json)|
 |gcc-12.3.0-c|![gcc-12.3.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-12.3.0-c.json)|
 |gcc-11.4.0-c|![gcc-11.4.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-11.4.0-c.json)|
@@ -90,7 +80,6 @@
 |gcc-8.4.0-c|![gcc-8.4.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-8.4.0-c.json)|
 |gcc-7.5.0-c|![gcc-7.5.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-7.5.0-c.json)|
 |gcc-6.5.0-c|![gcc-6.5.0-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fgcc-6.5.0-c.json)|
-|clang-head-c|![clang-head-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-head-c.json)|
 |clang-17.0.1-c|![clang-17.0.1-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-17.0.1-c.json)|
 |clang-16.0.4-c|![clang-16.0.4-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-16.0.4-c.json)|
 |clang-15.0.7-c|![clang-15.0.7-c](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2Fclang-15.0.7-c.json)|
@@ -109,7 +98,6 @@
 
 |version|status|
 |:------|:-----|
-|gcc-head|![gcc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-head.json)|
 |gcc-13.2.0|![gcc-13.2.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-13.2.0.json)|
 |gcc-12.3.0|![gcc-12.3.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-12.3.0.json)|
 |gcc-11.4.0|![gcc-11.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-11.4.0.json)|
@@ -118,18 +106,10 @@
 |gcc-8.4.0|![gcc-8.4.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-8.4.0.json)|
 |gcc-7.5.0|![gcc-7.5.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-7.5.0.json)|
 |gcc-6.5.0|![gcc-6.5.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fgcc-6.5.0.json)|
-|clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-head.json)|
 |clang-17.0.1|![clang-17.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-17.0.1.json)|
 |clang-16.0.4|![clang-16.0.4](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-16.0.4.json)|
 |clang-15.0.7|![clang-15.0.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-15.0.7.json)|
 |clang-14.0.6|![clang-14.0.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-14.0.6.json)|
-
-### CPP
-
-|version|status|
-|:------|:-----|
-|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
-|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
 
 ### Crystal
 
@@ -142,7 +122,6 @@
 |version|status|
 |:------|:-----|
 |dmd-2.109.1|![dmd-2.109.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fdmd-2.109.1.json)|
-|ldc-1.39.0|![ldc-1.39.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fldc-1.39.0.json)|
 
 ### Elixir
 
@@ -316,11 +295,6 @@
 |cpython-3.8.20|![cpython-3.8.20](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.8.20.json)|
 |cpython-3.7.17|![cpython-3.7.17](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.7.17.json)|
 |cpython-2.7.18|![cpython-2.7.18](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-2.7.18.json)|
-|pypy-3.10-v7.3.17|![pypy-3.10-v7.3.17](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.10-v7.3.17.json)|
-|pypy-3.9-v7.3.16|![pypy-3.9-v7.3.16](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.9-v7.3.16.json)|
-|pypy-3.8-v7.3.11|![pypy-3.8-v7.3.11](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.8-v7.3.11.json)|
-|pypy-3.7-v7.3.9|![pypy-3.7-v7.3.9](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-3.7-v7.3.9.json)|
-|pypy-2.7-v7.3.17|![pypy-2.7-v7.3.17](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fpypy-2.7-v7.3.17.json)|
 
 ### R
 
@@ -397,14 +371,6 @@
 |:------|:-----|
 |vim-9.1.0758|![vim-9.1.0758](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-9.1.0758.json)|
 |vim-8.2.5172|![vim-8.2.5172](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FVim%2520script%2Fvim-8.2.5172.json)|
-
-### Zig
-
-|version|status|
-|:------|:-----|
-|zig-head|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-head.json)|
-|zig-0.13.0|![zig-0.13.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-0.13.0.json)|
-|zig-0.9.1|![zig-0.9.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-0.9.1.json)|
 
 [Wandbox]:https://wandbox.org/
 [wandbox-news]:https://github.com/srz-zumix/wandbox-news
