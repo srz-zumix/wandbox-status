@@ -332,8 +332,9 @@
 
 |version|status|
 |:------|:-----|
-|ruby-3.3.5|![ruby-3.3.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.3.5.json)|
-|ruby-3.2.5|![ruby-3.2.5](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.2.5.json)|
+|ruby-3.4.1|![ruby-3.4.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.4.1.json)|
+|ruby-3.3.6|![ruby-3.3.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.3.6.json)|
+|ruby-3.2.6|![ruby-3.2.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.2.6.json)|
 |ruby-3.1.6|![ruby-3.1.6](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.1.6.json)|
 |ruby-3.0.7|![ruby-3.0.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fruby-3.0.7.json)|
 |mruby-3.0.0|![mruby-3.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FRuby%2Fmruby-3.0.0.json)|
