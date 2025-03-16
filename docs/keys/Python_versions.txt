@@ -1,3 +1,5 @@
+cpython-head
+cpython-2.7-head
 cpython-3.12.7
 cpython-3.11.10
 cpython-3.10.15
