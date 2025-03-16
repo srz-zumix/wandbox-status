@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Scala: scala-3.3.4",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
