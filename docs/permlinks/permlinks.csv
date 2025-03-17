@@ -35,6 +35,7 @@ CPP, gcc-head-pp, https://wandbox.org/permlink/S6uifVaXxQa0xIiX
 CPP, clang-head-pp, https://wandbox.org/permlink/7miPfETEKnGQg521
 Crystal, crystal-1.13.3, https://wandbox.org/permlink/
 D, dmd-2.109.1, https://wandbox.org/permlink/
+D, gdc-head, https://wandbox.org/permlink/
 D, ldc-1.39.0, https://wandbox.org/permlink/
 Elixir, elixir-1.17.3, https://wandbox.org/permlink/
 Elixir, elixir-1.16.3, https://wandbox.org/permlink/
@@ -109,6 +110,8 @@ PHP, php-8.0.30, https://wandbox.org/permlink/m54ngILyxlRxifRi
 PHP, php-7.4.33, https://wandbox.org/permlink/YAjIYq1uyPbP9Nwq
 PHP, php-5.6.40, https://wandbox.org/permlink/UPYr9C3wold0HlAo
 Pony, pony-0.58.5, https://wandbox.org/permlink/
+Python, cpython-head, https://wandbox.org/permlink/
+Python, cpython-2.7-head, https://wandbox.org/permlink/
 Python, cpython-3.12.7, https://wandbox.org/permlink/
 Python, cpython-3.11.10, https://wandbox.org/permlink/
 Python, cpython-3.10.15, https://wandbox.org/permlink/
