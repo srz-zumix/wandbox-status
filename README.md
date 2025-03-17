@@ -69,6 +69,9 @@
 |C++|clang-head|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FC%2B%2B%2Fclang-head-version.json)|![clang-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FC%2B%2B%2Fclang-head.json)|
 |CPP|gcc-head-pp|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FCPP%2Fgcc-head-pp-version.json)|![gcc-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fgcc-head-pp.json)|
 |CPP|clang-head-pp|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FCPP%2Fclang-head-pp-version.json)|![clang-head-pp](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FCPP%2Fclang-head-pp.json)|
+|D|gdc-head|![gdc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FD%2Fgdc-head-version.json)|![gdc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fgdc-head.json)|
+|Python|cpython-head|![cpython-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FPython%2Fcpython-head-version.json)|![cpython-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-head.json)|
+|Python|cpython-2.7-head|![cpython-2.7-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FPython%2Fcpython-2.7-head-version.json)|![cpython-2.7-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-2.7-head.json)|
 |Zig|zig-head|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2Fhead-version%2FZig%2Fzig-head-version.json)|![zig-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FZig%2Fzig-head.json)|
 
 ### Bash script
@@ -142,6 +145,7 @@
 |version|status|
 |:------|:-----|
 |dmd-2.109.1|![dmd-2.109.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fdmd-2.109.1.json)|
+|gdc-head|![gdc-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fgdc-head.json)|
 |ldc-1.39.0|![ldc-1.39.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FD%2Fldc-1.39.0.json)|
 
 ### Elixir
@@ -311,6 +315,8 @@
 
 |version|status|
 |:------|:-----|
+|cpython-head|![cpython-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-head.json)|
+|cpython-2.7-head|![cpython-2.7-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-2.7-head.json)|
 |cpython-3.12.7|![cpython-3.12.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.12.7.json)|
 |cpython-3.11.10|![cpython-3.11.10](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.11.10.json)|
 |cpython-3.10.15|![cpython-3.10.15](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.10.15.json)|
