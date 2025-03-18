@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Perl: perl-5.38.0",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
