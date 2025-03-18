@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Go: go-1.16.3",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
