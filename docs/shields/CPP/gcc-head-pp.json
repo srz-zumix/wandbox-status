@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "CPP: gcc-head-pp",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
