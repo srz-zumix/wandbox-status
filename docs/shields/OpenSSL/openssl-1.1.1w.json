@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "OpenSSL: openssl-1.1.1w",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
