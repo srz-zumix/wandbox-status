@@ -319,6 +319,7 @@
 2025-03-30 22:20, failed
 2025-03-31 10:21, failed
 2025-03-31 22:20, failed
+2025-04-01 10:21, failed
 --- scala-3.3.4
 2024-10-21 10:21, succeeded
 2024-10-21 22:20, succeeded
@@ -640,6 +641,7 @@
 2025-03-30 22:20, succeeded
 2025-03-31 10:22, succeeded
 2025-03-31 22:21, succeeded
+2025-04-01 10:21, succeeded
 --- scala-2.13.15
 2024-10-21 10:22, succeeded
 2024-10-21 22:20, succeeded
@@ -961,3 +963,4 @@
 2025-03-30 22:21, succeeded
 2025-03-31 10:22, succeeded
 2025-03-31 22:21, succeeded
+2025-04-01 10:22, succeeded
