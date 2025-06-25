@@ -489,6 +489,7 @@
 2025-06-23 15:35, succeeded
 2025-06-24 03:45, succeeded
 2025-06-24 15:35, succeeded
+2025-06-25 03:44, failed
 --- ghc-9.0.1
 2022-01-10 15:40, succeeded
 2022-01-11 03:38, succeeded
@@ -3000,6 +3001,7 @@
 2025-06-23 15:35, succeeded
 2025-06-24 03:45, succeeded
 2025-06-24 15:36, succeeded
+2025-06-25 03:45, succeeded
 --- ghc-8.10.4
 2022-01-10 15:40, succeeded
 2022-01-11 03:38, succeeded
@@ -5511,3 +5513,4 @@
 2025-06-23 15:36, succeeded
 2025-06-24 03:46, succeeded
 2025-06-24 15:36, succeeded
+2025-06-25 03:45, succeeded
