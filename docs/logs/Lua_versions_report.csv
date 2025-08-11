@@ -583,6 +583,7 @@
 2025-08-10 09:28, succeeded
 2025-08-10 21:26, succeeded
 2025-08-11 09:29, succeeded
+2025-08-11 21:26, succeeded
 --- lua-5.3.6
 2022-01-10 09:35, succeeded
 2022-01-10 21:31, succeeded
@@ -3193,6 +3194,7 @@
 2025-08-10 09:28, failed
 2025-08-10 21:26, failed
 2025-08-11 09:29, failed
+2025-08-11 21:26, failed
 --- lua-5.2.4
 2022-01-10 09:35, succeeded
 2022-01-10 21:31, succeeded
@@ -5803,6 +5805,7 @@
 2025-08-10 09:28, failed
 2025-08-10 21:26, failed
 2025-08-11 09:29, failed
+2025-08-11 21:26, failed
 --- luajit-2.0.5
 2021-08-03 09:02, succeeded
 2021-08-04 09:02, succeeded
@@ -8722,6 +8725,7 @@
 2025-08-10 09:28, succeeded
 2025-08-10 21:26, succeeded
 2025-08-11 09:29, succeeded
+2025-08-11 21:26, succeeded
 --- luajit-2.0.4
 2021-08-03 09:02, succeeded
 2021-08-04 09:02, succeeded
@@ -11641,6 +11645,7 @@
 2025-08-10 09:28, succeeded
 2025-08-10 21:26, succeeded
 2025-08-11 09:29, succeeded
+2025-08-11 21:26, succeeded
 --- luajit-2.0.3
 2021-08-03 09:02, succeeded
 2021-08-04 09:02, succeeded
@@ -14560,3 +14565,4 @@
 2025-08-10 09:28, succeeded
 2025-08-10 21:26, succeeded
 2025-08-11 09:29, succeeded
+2025-08-11 21:26, succeeded
