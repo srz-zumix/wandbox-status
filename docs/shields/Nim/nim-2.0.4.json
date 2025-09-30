@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Nim: nim-2.0.4",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
