@@ -320,6 +320,8 @@
 |:------|:-----|
 |cpython-head|![cpython-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-head.json)|
 |cpython-2.7-head|![cpython-2.7-head](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-2.7-head.json)|
+|cpython-3.14.0|![cpython-3.14.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.14.0.json)|
+|cpython-3.13.8|![cpython-3.13.8](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.13.8.json)|
 |cpython-3.12.7|![cpython-3.12.7](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.12.7.json)|
 |cpython-3.11.10|![cpython-3.11.10](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.11.10.json)|
 |cpython-3.10.15|![cpython-3.10.15](https://img.shields.io/endpoint?url=https%3A%2F%2Fsrz-zumix.github.io%2Fwandbox-status%2Fshields%2FPython%2Fcpython-3.10.15.json)|
