@@ -9,7 +9,7 @@ jobs:
     env:
       LANGUAGE: "TEMPLATE_LANGUAGE"
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
     - name: Set up Python 3.9
       uses: actions/setup-python@v4
       with:
