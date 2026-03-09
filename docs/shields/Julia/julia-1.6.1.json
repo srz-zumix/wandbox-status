@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Julia: julia-1.6.1",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
