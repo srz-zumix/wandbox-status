@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "R: r-4.4.1",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
