@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "C#: mono-5.20.1.34",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
