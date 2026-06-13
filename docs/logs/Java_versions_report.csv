@@ -1190,6 +1190,7 @@
 2026-06-11 17:54, succeeded
 2026-06-12 06:20, failed
 2026-06-12 17:40, succeeded
+2026-06-13 06:15, succeeded
 --- openjdk-jdk-21+35
 2024-10-21 04:51, succeeded
 2024-10-21 16:52, succeeded
@@ -2382,3 +2383,4 @@
 2026-06-11 17:54, succeeded
 2026-06-12 06:20, succeeded
 2026-06-12 17:40, succeeded
+2026-06-13 06:15, failed
