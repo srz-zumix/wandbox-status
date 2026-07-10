@@ -288,6 +288,7 @@
 2026-07-01 10:57, succeeded
 2026-07-06 11:24, succeeded
 2026-07-07 10:53, succeeded
+2026-07-10 10:53, succeeded
 --- rust-1.81.0
 2024-10-22 09:57, succeeded
 2024-10-24 09:57, succeeded
@@ -578,6 +579,7 @@
 2026-07-01 10:58, succeeded
 2026-07-06 11:24, succeeded
 2026-07-07 10:54, succeeded
+2026-07-10 10:53, succeeded
 --- rust-1.80.1
 2024-10-22 09:57, succeeded
 2024-10-24 09:58, succeeded
@@ -868,6 +870,7 @@
 2026-07-01 10:58, succeeded
 2026-07-06 11:25, succeeded
 2026-07-07 10:54, succeeded
+2026-07-10 10:54, succeeded
 --- rust-1.79.0
 2024-10-22 09:58, succeeded
 2024-10-24 09:58, succeeded
@@ -1158,6 +1161,7 @@
 2026-07-01 10:58, succeeded
 2026-07-06 11:25, succeeded
 2026-07-07 10:54, succeeded
+2026-07-10 10:54, succeeded
 --- rust-1.78.0
 2024-10-22 09:58, succeeded
 2024-10-24 09:58, succeeded
@@ -1448,6 +1452,7 @@
 2026-07-01 10:59, succeeded
 2026-07-06 11:25, succeeded
 2026-07-07 10:55, succeeded
+2026-07-10 10:54, succeeded
 --- rust-1.77.2
 2024-10-22 09:58, succeeded
 2024-10-24 09:58, succeeded
@@ -1738,6 +1743,7 @@
 2026-07-01 10:59, succeeded
 2026-07-06 11:26, succeeded
 2026-07-07 10:55, succeeded
+2026-07-10 10:55, succeeded
 --- rust-1.76.0
 2024-10-22 09:58, succeeded
 2024-10-24 09:59, succeeded
@@ -2028,6 +2034,7 @@
 2026-07-01 10:59, succeeded
 2026-07-06 11:26, succeeded
 2026-07-07 10:55, succeeded
+2026-07-10 10:55, succeeded
 --- rust-1.75.0
 2024-10-22 09:59, succeeded
 2024-10-24 09:59, succeeded
@@ -2318,6 +2325,7 @@
 2026-07-01 10:59, succeeded
 2026-07-06 11:26, succeeded
 2026-07-07 10:56, succeeded
+2026-07-10 10:55, succeeded
 --- rust-1.74.1
 2024-10-22 09:59, succeeded
 2024-10-24 09:59, succeeded
@@ -2608,6 +2616,7 @@
 2026-07-01 11:00, succeeded
 2026-07-06 11:26, succeeded
 2026-07-07 10:56, succeeded
+2026-07-10 10:56, succeeded
 --- rust-1.73.0
 2024-10-22 09:59, succeeded
 2024-10-24 09:59, succeeded
@@ -2898,6 +2907,7 @@
 2026-07-01 11:00, succeeded
 2026-07-06 11:27, succeeded
 2026-07-07 10:56, succeeded
+2026-07-10 10:56, succeeded
 --- rust-1.72.1
 2024-10-22 10:00, succeeded
 2024-10-24 10:00, succeeded
@@ -3188,6 +3198,7 @@
 2026-07-01 11:00, succeeded
 2026-07-06 11:27, succeeded
 2026-07-07 10:56, succeeded
+2026-07-10 10:56, succeeded
 --- rust-1.71.1
 2024-10-22 10:00, succeeded
 2024-10-24 10:00, succeeded
@@ -3478,6 +3489,7 @@
 2026-07-01 11:01, succeeded
 2026-07-06 11:27, succeeded
 2026-07-07 10:57, succeeded
+2026-07-10 10:56, succeeded
 --- rust-1.70.0
 2024-10-22 10:00, succeeded
 2024-10-24 10:00, succeeded
@@ -3768,6 +3780,7 @@
 2026-07-01 11:01, succeeded
 2026-07-06 11:28, succeeded
 2026-07-07 10:57, succeeded
+2026-07-10 10:57, succeeded
 --- rust-1.69.0
 2023-06-02 22:00, succeeded
 2023-06-03 10:00, succeeded
@@ -5067,6 +5080,7 @@
 2026-07-01 11:01, succeeded
 2026-07-06 11:28, succeeded
 2026-07-07 10:57, succeeded
+2026-07-10 10:57, succeeded
 --- rust-1.68.2
 2023-06-02 22:00, succeeded
 2023-06-03 10:00, succeeded
@@ -6366,6 +6380,7 @@
 2026-07-01 11:02, succeeded
 2026-07-06 11:28, succeeded
 2026-07-07 10:58, succeeded
+2026-07-10 10:57, succeeded
 --- rust-1.67.1
 2023-06-02 22:00, succeeded
 2023-06-03 10:00, succeeded
@@ -7665,6 +7680,7 @@
 2026-07-01 11:02, succeeded
 2026-07-06 11:29, succeeded
 2026-07-07 10:58, succeeded
+2026-07-10 10:58, succeeded
 --- rust-1.66.1
 2023-06-02 22:00, succeeded
 2023-06-03 10:00, succeeded
@@ -8964,6 +8980,7 @@
 2026-07-01 11:02, succeeded
 2026-07-06 11:29, succeeded
 2026-07-07 10:58, succeeded
+2026-07-10 10:58, succeeded
 --- rust-1.65.0
 2023-06-02 22:00, succeeded
 2023-06-03 10:00, succeeded
@@ -10263,6 +10280,7 @@
 2026-07-01 11:03, succeeded
 2026-07-06 11:29, succeeded
 2026-07-07 10:59, succeeded
+2026-07-10 10:58, succeeded
 --- rust-1.64.0
 2023-06-02 22:00, succeeded
 2023-06-03 10:00, succeeded
@@ -11562,3 +11580,4 @@
 2026-07-01 11:03, succeeded
 2026-07-06 11:30, succeeded
 2026-07-07 10:59, succeeded
+2026-07-10 10:59, succeeded
