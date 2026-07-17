@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "PHP: php-8.2.24",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
