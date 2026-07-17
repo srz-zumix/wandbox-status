@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "C++: gcc-8.4.0",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
