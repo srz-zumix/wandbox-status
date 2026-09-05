@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Zig: zig-0.13.0",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
