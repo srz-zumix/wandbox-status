@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Pascal: fpc-3.2.2",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
