@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "C#: dotnetcore-6.0.425",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
