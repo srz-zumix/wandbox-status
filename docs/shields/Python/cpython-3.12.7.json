@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Python: cpython-3.12.7",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
