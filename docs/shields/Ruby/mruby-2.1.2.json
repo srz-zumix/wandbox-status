@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Ruby: mruby-2.1.2",
-  "message": "succeeded",
-  "color": "green"
+  "message": "failed",
+  "color": "red"
 }
