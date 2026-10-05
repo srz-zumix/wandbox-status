@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "D: dmd-2.109.1",
-  "message": "failed",
-  "color": "red"
+  "message": "succeeded",
+  "color": "green"
 }
